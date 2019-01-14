@@ -28,7 +28,7 @@
       pauseOnHover: "true",
       pager: ".cycle-pager, .slide-menu",
       pagerTemplate: ""
-      // autoHeight: 'container'
+      // autoHeight: "container"
     });
 
     function adjustSlide() {
@@ -63,6 +63,7 @@
       $(this).waypoint({
         handler: function() {
           self.addClass("active");
+          this.destroy();
         },
         offset: "50%"
       });
@@ -75,6 +76,7 @@
         handler: function() {
           self.addClass("active");
           drawCircles();
+          this.destroy();
         },
         offset: "2000"
       });
@@ -96,6 +98,7 @@
               }, 200 * 1 * ms_i_1);
             }, 200 * 2 * ms_i_1);
           }, 200 * 3 * ms_i_1);
+          this.destroy();
         },
         offset: "2000"
       });
