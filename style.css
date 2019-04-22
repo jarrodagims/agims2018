@@ -9,3 +9,18 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 Tags:  wordpress-starter-theme, wordpress, php, twitter-bootstrap, scss
 */
+
+@media screen and (max-width:400px){
+	
+.page-template-page-home .icon-row .flex-col {
+    width: 31%;
+    height: 106px;
+}
+.page-template-page-home .icon-row .flex-col.clear-left {
+    margin-right: 0;
+}
+.page-template-page-home .icon-row .title {
+    font-size: 9px;
+}
+	
+}

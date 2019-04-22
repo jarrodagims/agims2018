@@ -2,6 +2,20 @@
 
 (function($) {
   $(document).ready(function() {
+    //$(".deferimg").setAttribute("src", $($(this)).getAttribute("data-src"));
+
+    $(".deferimg").each(function() {
+      if ($(this).data("src")) {
+        $(this).attr("src", $(this).data("src"));
+      }
+    });
+
+    $(".defersrc").each(function() {
+      if ($(this).data("srcset")) {
+        $(this).attr("srcset", $(this).data("srcset"));
+      }
+    });
+
     $(".expander").click(function(event) {
       event.preventDefault();
       $($(this).data("target")).slideToggle();

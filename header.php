@@ -114,8 +114,36 @@
 	src="//c.statcounter.com/8056140/0/51d197f5/1/" alt="Web
 	Analytics"></a></div></noscript>
 	<!-- End of Statcounter Code -->
+	
+	
+	
 </head>
+	
 <body <?php body_class(); ?>>
+	<!-- Load Facebook SDK for JavaScript -->
+<!--<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> -->
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="209729369061934"
+  theme_color="#0084ff">
+</div>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX5C52M"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

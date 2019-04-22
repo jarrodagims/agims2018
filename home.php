@@ -1,5 +1,24 @@
 <?php get_header(); ?>
-<?php get_template_part('template-parts/page/page', 'top-banner'); ?>
+<div class="top-banner " style="background-image: url('https://www.agims.com/wp-content/uploads/2018/12/blog-banner.jpg')">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1><strong>Our Blog</strong></h1>
+
+				<a href="/contact-us/"><button class="btn btn-success">Contact Us</button></a>
+
+			</div>
+		</div>
+	</div>
+</div>
+<ul class="google-colors">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
 <section id="main">
 	<div class="container">
 		<div class="row">

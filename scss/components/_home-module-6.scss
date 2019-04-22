@@ -3,6 +3,11 @@
   background-size: cover;
   overflow: hidden;
 
+  @include media-breakpoint-down(md) {
+    background: url('../img/bg-building-sm.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
   .google-colors {
     margin-bottom: 0;
   }

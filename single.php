@@ -1,12 +1,6 @@
 <?php get_header(); ?>
-<ul class="google-colors">
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
+<?php get_template_part('template-parts/page/page', 'top-banner'); ?>
+
 <section id="main">
 	<div class="container">
 		<div class="row">

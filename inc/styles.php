@@ -28,5 +28,8 @@ function sherpa_styles() {
 
 }
 
+
+
+
 // Hook into the 'wp_enqueue_scripts' action
 add_action( 'wp_enqueue_scripts', 'sherpa_styles' );

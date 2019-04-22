@@ -1,5 +1,5 @@
 .home-module-5 {
-  background: url('../img/bg-logos.png') 0 0 no-repeat;
+  background: url('../img/bg-logos.jpg') 0 0 no-repeat;
   background-size: cover;
 
   h2 {
@@ -10,7 +10,7 @@
     font-weight: 300;
   }
 
-  .col {
+  .col { 
     display: flex;
     justify-content: center;
     padding: 7em 0;
@@ -29,6 +29,8 @@
   }
 
   @include media-breakpoint-down(md) {
+      background: url('../img/bg-logos-sm.jpg') 0 0 no-repeat;
+      background-size: cover;
       text-align: center;
 
       .col {

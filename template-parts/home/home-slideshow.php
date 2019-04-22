@@ -56,8 +56,12 @@
                                     <div class="circle-container">
                                         <div class="circle">
                                             <picture>
-                                                <source media="(min-width: 992px)" srcset="<?=IMGURL?>circle-runner.png">
-                                                <img src="<?=IMGURL?>circle-runner-sm.png" alt="Physicians Vascular Services">
+                                                <source media="(min-width: 993px)" srcset="<?=IMGURL?>circle-runner.png"
+                                                    type="image/png">
+                                                <source media="(max-width: 992px)" data-srcset="<?= IMGURL ?>circle-runner-sm.webp"
+                                                    type="image/webp" class="defersrc">
+                                                <img data-src="<?=IMGURL?>circle-runner-sm.png" alt="Physicians Vascular Services"
+                                                    class="deferimg" />
                                             </picture>
                                         </div>
                                     </div>
@@ -75,9 +79,14 @@
                                     <div class="circle-container">
                                         <div class="circle">
                                             <picture>
-                                                <source media="(min-width: 992px)" srcset="<?=IMGURL?>circle-scott.png">
-                                                <img src="<?=IMGURL?>circle-scott-sm.png" alt="Scott Heating & Cooling">
+                                                <source media="(min-width: 993px)" srcset="<?=IMGURL?>circle-scott.png"
+                                                    type="image/png">
+                                                <source media="(max-width: 992px)" data-srcset="<?= IMGURL ?>circle-scott-sm.webp"
+                                                    type="image/webp" class="defersrc">
+                                                <img data-src="<?=IMGURL?>circle-scott-sm.png" alt="Scott Heating & Cooling"
+                                                    class="deferimg" />
                                             </picture>
+
                                         </div>
                                     </div>
                                     <div class="stars-logo">
@@ -94,8 +103,12 @@
                                     <div class="circle-container">
                                         <div class="circle">
                                             <picture>
-                                                <source media="(min-width: 992px)" srcset="<?=IMGURL?>circle-shorty.png">
-                                                <img src="<?=IMGURL?>circle-shorty-sm.png" alt="National Furniture Liquidators">
+                                                <source media="(min-width: 993px)" srcset="<?=IMGURL?>circle-shorty.png"
+                                                    type="image/png">
+                                                <source media="(max-width: 992px)" data-srcset="<?= IMGURL ?>circle-shorty-sm.webp"
+                                                    type="image/webp" class="defersrc">
+                                                <img data-src="<?=IMGURL?>circle-shorty-sm.png" alt="National Furniture Liquidators"
+                                                    class="deferimg" />
                                             </picture>
                                         </div>
                                     </div>
