@@ -1,0 +1,12 @@
+.ribbon {
+  background: #ff0000;
+  text-align: center;
+  padding: 1em 0;
+
+  p {
+    color: $white;
+    margin-bottom: 0;
+    font-size: 33px;
+    @include montserrat();
+  }
+}

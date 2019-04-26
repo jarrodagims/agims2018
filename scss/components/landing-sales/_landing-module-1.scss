@@ -1,0 +1,78 @@
+.warning-top {
+  // text-align: center;
+  // height: 115px;
+  // position: relative;
+  text-align: center;
+  position: relative;
+}
+
+.warning {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  max-width: 50%;
+  position: absolute;
+}
+
+.content-bg {
+  background: #fff;
+  color: #000;
+  text-align: center;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 115px;
+    background: #f1f1f1;
+    z-index: -1;
+  }
+}
+
+h1,
+h2,
+h3 {
+  @include montserrat();
+
+  strong {
+    color: #2192f9;
+  }
+}
+
+h1 {
+  font-size: 41px;
+  color: #000;
+}
+
+h1 span {
+  display: block;
+  font-size: 30px;
+}
+
+.box {
+  border: 3px solid #000;
+  width: 586px;
+  margin: 64px auto;
+
+  p {
+    padding: 1em;
+  }
+
+  .box-header {
+    background: #eee40b;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0.75em;
+  }
+
+  font-size: 22px;
+
+  strong {
+    color: #2192f9;
+  }
+}
+
+.bg-truth {
+  background: url("../img/landing-sales/the-truth.jpg") 0 0 no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,14 @@
+.landing-module-5 {
+  background: url("../img/landing-sales/bg-cellphones.jpg") 0 0 no-repeat;
+  background-size: cover;
+  color: $white;
+  font-size: 30px;
+  @include montserrat();
+  line-height: 1.25;
+  padding: 2em 0;
+
+  img {
+    margin-top: 25px;
+    margin-right: -230px;
+  }
+}

@@ -1,0 +1,13 @@
+.landing-module-3 {
+  background: url("../img/landing-sales/bg-diagonal.jpg") 0 0 no-repeat;
+  background-size: cover;
+  color: $white;
+  padding: 137px 0;
+  font-size: 30px;
+  @include montserrat();
+  line-height: 1.25;
+
+  p {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,46 @@
+.page-template-page-landing-sales {
+  background: #000 url("../img/landing-sales/bg-landing-page-sales.jpg") 0 0
+    no-repeat;
+  background-size: contain;
+  margin: 90px;
+  font-family: "Roboto", sans-serif;
+
+  .btn {
+    font-size: 22px;
+    text-transform: none;
+    padding: 1em 2em;
+  }
+
+  ul.checks {
+    list-style: none;
+    padding-left: 0;
+
+    span {
+      display: inline-block;
+      overflow: hidden;
+      @include check();
+    }
+
+    li {
+      margin-bottom: 0.5em;
+      clear: both;
+    }
+  }
+
+  .yellow {
+    background: #eee30c;
+  }
+
+  .blue {
+    background: $sherpa-secondary-color;
+  }
+
+  @import "landing-sales/landing-module-1";
+  @import "landing-sales/landing-module-2";
+  @import "landing-sales/landing-module-3";
+  @import "landing-sales/landing-module-4";
+  @import "landing-sales/landing-module-5";
+  @import "landing-sales/landing-module-6";
+  @import "landing-sales/landing-module-7";
+  @import "landing-sales/ribbon";
+}

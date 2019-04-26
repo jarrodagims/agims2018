@@ -1,0 +1,18 @@
+.two-up {
+  background: #f1f1f1;
+
+  h2 {
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  .extra-padding {
+    padding: 114px;
+  }
+
+  .blurb {
+    font-size: 26px;
+    @include montserrat();
+    line-height: 1.25;
+  }
+}

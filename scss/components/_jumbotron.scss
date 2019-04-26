@@ -1,52 +1,51 @@
 .landing-bg {
   position: relative;
-  background: url('../img/bg-galaxy.jpg') 50% 0 no-repeat;
-    background-size: cover; 
+  background: url("../img/bg-galaxy-2.jpg") 50% 0 no-repeat;
+  background-size: cover;
 
-//   #home-main {
-//     background: url('../img/bg-galaxy.jpg') 50% 0 no-repeat;
-//     background-size: cover; 
-//   }
+  //   #home-main {
+  //     background: url('../img/bg-galaxy.jpg') 50% 0 no-repeat;
+  //     background-size: cover;
+  //   }
 
   &::before {
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     display: block;
   }
 
   @include media-breakpoint-down(md) {
-    background: url('../img/bg-galaxy-sm.jpg') 50% 100% no-repeat;
+    background: url("../img/bg-galaxy-sm.jpg") 50% 100% no-repeat;
     background-size: cover;
 
-
     &::before {
-      content: '';
+      content: "";
       width: 100%;
       height: 100%;
       position: absolute;
       left: 0;
       top: 0;
-      background: rgba(0,0,0,0.75);
+      background: rgba(0, 0, 0, 0.75);
       display: block;
     }
-  } 
+  }
 }
 
 @include media-breakpoint-up(md) {
-//     .top-header .navbar, .top-header .navbar-sherpa {
-//       position: absolute;
-//       left: 50%;
-//       transform: translateX(-50%);
-//   }
+  //     .top-header .navbar, .top-header .navbar-sherpa {
+  //       position: absolute;
+  //       left: 50%;
+  //       transform: translateX(-50%);
+  //   }
 }
 
 #home-main {
-  position: relative; 
+  position: relative;
 }
 
 .jumbotron {
@@ -56,7 +55,7 @@
   flex-direction: column;
   height: 709px;
   justify-content: center;
-  
+
   span.brand {
     font-weight: 600;
   }
@@ -64,24 +63,24 @@
   h1 {
     font-size: 75px;
     color: $white;
-    font-weight: 500; 
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 80px;
-    
+
     strong {
       font-weight: 600;
     }
-    
+
     .br-md {
       font-size: 43px;
       display: block;
-    } 
+    }
   }
 
   p {
     color: $white;
     font-size: 26px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     margin-top: 0px;
 
@@ -123,7 +122,7 @@
 
       .br-md {
         font-size: 17px;
-        margin-top: .25em;
+        margin-top: 0.25em;
       }
     }
 
@@ -138,7 +137,7 @@ span.brand {
 }
 
 #home-main {
-   .flex-col {
+  .flex-col {
     flex-direction: column;
   }
 }
