@@ -2,8 +2,31 @@
   background: #000 url("../img/landing-sales/bg-landing-page-sales.jpg") 0 0
     no-repeat;
   background-size: contain;
-  margin: 90px;
   font-family: "Roboto", sans-serif;
+
+  .header {
+    position: absolute;
+    top: 100px;
+    left: 0;
+  }
+
+  .content-top {
+    padding-top: 400px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .content-top {
+      margin-left: 90px;
+      margin-right: 90px;
+      margin-bottom: 0;
+      position: relative;
+    }
+  }
+
+  .content-bottom {
+    text-align: center;
+    background: $white;
+  }
 
   .btn {
     font-size: 22px;
@@ -42,5 +65,8 @@
   @import "landing-sales/landing-module-5";
   @import "landing-sales/landing-module-6";
   @import "landing-sales/landing-module-7";
+  @import "landing-sales/landing-module-8";
+  @import "landing-sales/landing-module-9";
+  @import "landing-sales/landing-module-10";
   @import "landing-sales/ribbon";
 }
