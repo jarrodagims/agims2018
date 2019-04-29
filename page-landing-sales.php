@@ -42,21 +42,25 @@
 
             <div class="content-bg">
 
-                <h1><span>Let’s dive straight into it.</span>
-                    If you want to <strong>GROW</strong>, you need <strong>SEO</strong>.</h1>
+                <h1>
+                    <span><strong>Let’s dive straight into it.</strong></span>
+                    <strong>
+                        If you want to <em>GROW</em>, you need <em>SEO</em>.
+                    </strong>
+                </h1>
                 <div class="box">
-                    <div class="box-header"><strong>Everyone</strong> is online, everyone
+                    <div class="box-header"><strong>Everyone</strong> is online, everyone<br />
                         is searching for something...</div>
-                    <p>This presents an opportunity for you,
+                    <p>This presents an opportunity for you,<br />
                         for your business.</p>
                 </div>
 
-                <div class="row">
-                    <div class="col">
+                <div class="row checkmarks">
+                    <div class="col checkmark">
                         <p>An opportunity to influence consumer decisions
                             and preferences.</p>
                     </div>
-                    <div class="col">
+                    <div class="col checkmark">
                         <p>An opportunity to be found when your desired customer is searching for YOU.</p>
                     </div>
                 </div>
@@ -72,20 +76,21 @@
 
                             <div class="col">
                                 <div class="extra-padding">
-                                    <p class="blurb">With billions of searches being conducted
+                                    <p class="blurb">With billions of searches being conducted<br class="d-md-block">
                                         each day on sites like Google, Yahoo, and Bing,
-                                        you want to ensure your business
+                                        you want to ensure your business<br class="d-md-block">
                                         comes out on top.</p>
 
-                                    <p>People searching for your services want <strong>immediate results</strong>.
+                                    <p>People searching for your services want <strong>immediate results</strong>.<br
+                                            class="d-md-block">
                                         So much so that 75% of people won’t scroll past the first page.</p>
 
-                                    <p class="blurb">That’s 75% of people who go to your
+                                    <p class="blurb second">That’s 75% of people who go to your
                                         competitors and 75% of people whose
                                         business you <span class="brand">lose out on</span>.</p>
 
-                                    <p>Your customers are searching
-                                        for you, don’t you want to make it
+                                    <p>Your customers are searching<br class="d-md-block">
+                                        for you, don’t you want to make it<br class="d-md-block">
                                         easy to be found.</p>
 
                                     <a href=""><button class="btn btn-primary">Yes, I Want to Be Found</button></a>
@@ -108,7 +113,7 @@
 
             <div class="landing-module-4">
                 <div class="arrows">
-                    <p>How much time DAILY do you spend on a computer - a desktop or laptop?<br />
+                    <p>How much time <strong>DAILY</strong> do you spend on a computer - a desktop or laptop?<br />
                         How much time do you spend on your phone?<br />
                         How much time do your kids spend on their phones?<br />
                         Or your wife?<br />

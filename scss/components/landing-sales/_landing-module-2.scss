@@ -1,5 +1,19 @@
 .two-up {
   background: #f1f1f1;
+  @include downArrow();
+  position: relative;
+  margin-top: 50px;
+
+  &::before {
+    width: 40px;
+    height: 455px; 
+    position: absolute;
+    left: 50%;
+    background-size: auto 255px;
+    top: -280px;
+    transform: translateX(-50%);
+    z-index: 9999;
+  }
 
   h2 {
     font-size: 26px;
@@ -10,9 +24,19 @@
     padding: 114px;
   }
 
+  p {
+    font-size: 18px;
+    margin-bottom: 1em;
+  }
+
   .blurb {
     font-size: 26px;
     @include montserrat();
-    line-height: 1.25;
+    line-height: 1.45;
+    font-weight: 600;
+
+    &.second {
+      margin-top: 1.25em;
+    }
   }
 }

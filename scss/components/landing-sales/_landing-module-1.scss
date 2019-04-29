@@ -15,6 +15,11 @@
   position: relative;
 }
 
+strong em {
+  font-style: normal;
+  color: $sherpa-secondary-color;
+}
+
 .warning {
   left: 50%;
   transform: translateX(-50%);
@@ -43,10 +48,6 @@ h1,
 h2,
 h3 {
   @include montserrat();
-
-  strong {
-    color: #2192f9;
-  }
 }
 
 h1 {
@@ -60,12 +61,14 @@ h1 span {
 }
 
 .box {
-  border: 3px solid #000;
+  border: 5px solid #000;
   width: 586px;
-  margin: 64px auto;
+  margin: 64px auto 1em; 
 
   p {
-    padding: 1em;
+    padding: 1.5em;
+    margin-bottom: 0;
+    font-size: 22px;
   }
 
   .box-header {
@@ -83,7 +86,27 @@ h1 span {
   }
 }
 
-.bg-truth {
-  background: url("../img/landing-sales/the-truth.jpg") 0 0 no-repeat;
-  background-size: cover;
+.checkmarks {
+  width: 586px;
+  margin: 0 auto;
 }
+
+.bg-truth {
+  background: url("../img/landing-sales/the-truth.jpg") right 0 no-repeat;
+  background-size: cover;
+} 
+
+
+.checkmark p {
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 1.75;
+  font-weight: 600;
+  @include checkCircle();
+
+  &::before {
+    margin: 0 auto;
+  }
+}
+ 
