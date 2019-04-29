@@ -1,11 +1,33 @@
+
 .landing-module-8 {
   background: url("../img/landing-sales/bg-research.jpg") 0 0 no-repeat;
   background-size: cover;
   text-align: left;
   color: $white;
+ 
+
+  img {
+    flex: 1;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .container {
+    max-width: 1530px;
+    
+  }
 
   h2 {
     color: $white;
+    @include montserrat();
+    font-weight: 600;
+    text-align: left;
+    margin-left: 0;
+    font-size: 36px;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
   }
 
   .flex-col {
@@ -13,5 +35,30 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    p {
+      line-height: 1.5;
+    }
+
+    > div {
+      position: relative;
+      padding: 3em 0;
+      margin: 5.5em 0;
+
+      &::before {
+        @include dashLines();
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      &::after {
+        @include dashLines();
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-position: 100% 100%;
+      }
+    }
   }
 }

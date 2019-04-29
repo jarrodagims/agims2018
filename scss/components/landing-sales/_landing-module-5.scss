@@ -5,7 +5,13 @@
   font-size: 30px;
   @include montserrat();
   line-height: 1.25;
-  padding: 2em 0;
+  padding: 2em 0 3em;
+ 
+  p {
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.5;
+  }
 
   img {
     margin-top: 25px;

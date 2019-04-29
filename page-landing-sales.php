@@ -134,7 +134,8 @@
 
             <div class="landing-module-6">
                 <div class="list">
-                    <p>Mobile users turn to their phone to learn, do, find, or buy something instantly!
+                    <p class="blurb">Mobile users turn to their phone to learn, do, find, or buy something instantly!
+                        <br class="d-md-block">
                         They’re looking for things such as:</p>
 
                     <ul class="checks">
@@ -175,10 +176,10 @@
 
                 <h2>Every touch point impacts the Customer Buying Experience!</h2>
 
-                <p>The more times a customer comes across your brand, the more chances you
+                <p>The more times a customer comes across your brand, the more chances you<br class="d-md-block">
                     have to convince the customer to visit your store or shop your services or products.</p>
 
-                <p>If you’re not already creating these touchpoints, not to worry.
+                <p class="blurb">If you’re not already creating these touchpoints, not to worry.<br class="d-md-block">
                     You still have the opportunity to be found by potential customers.</p>
 
                 <a href="">
@@ -189,18 +190,21 @@
             <div class="landing-module-8">
                 <div class="container">
                     <div class="row">
-                        <div class="col flex-col">
-                            <h2>The Reality Is
-                                People Do Research
-                                Before They Buy</h2>
+                        <div class="col col-md-4 flex-col">
+                            <div>
+                                <h2>The Reality Is<br class="d-md-block">
+                                    People Do Research<br class="d-md-block">
+                                    Before They Buy</h2>
 
-                            <p>82% of smartphone users consult their phones on purchases they are about to make in-store
-                                and 45% read reviews before making a purchase.
-                                <br />
-
-                                -The Robo Economy</p>
+                                <p>82% of smartphone users consult their phones on purchases they are about to make
+                                    in-store
+                                    and 45% read reviews before making a purchase.
+                                    <br />
+                                    <br />
+                                    -The Robo Economy</p>
+                            </div>
                         </div>
-                        <div class="col">
+                        <div class="col d-flex">
                             <img src="<?=IMGURL?>landing-sales/pi-chart.svg"
                                 alt="Smartphone users consult their phones on purchases.">
                         </div>
@@ -215,20 +219,22 @@
 
                                 <img src="<?=IMGURL?>landing-sales/what-if.svg" alt="What if">
 
-                                <p>You're in an industry where people don't research - such as an: HVAC company, or
-                                    emergency roof repair?</p>
+                                <p>You're in an industry where people don't research - such as an: <br
+                                        class="d-md-block"><span class="brand">HVAC company</span>, or
+                                    <span class="brand">emergency roof repair?</span>
+                                </p>
                             </div>
 
                         </div>
                     </div>
 
-                    <div class="container">
+                    <div class="container flush-box">
                         <div class="row">
                             <div class="col">
-                                <h2>Then it is EVEN MORE important
+                                <h2>Then it is EVEN MORE important<br class="d-md-block">
                                     to be on the top of page one.</h2>
                                 <p>Most people will probably see the top rankers in the maps listing, and choose who
-                                    they call based on the review
+                                    they call based on the review<br class="d-md-block">
                                     count and star rating they have.</p>
 
                                 <a href="">

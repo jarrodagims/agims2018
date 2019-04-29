@@ -1,0 +1,11 @@
+.landing-module-6 {
+  padding: 4em 0;
+
+  p.blurb {
+    font-size: 26px;
+    color: #000;
+    font-weight: 600;
+    @include montserrat();
+    margin-bottom: 1.5em;
+  }
+}

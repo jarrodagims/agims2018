@@ -142,8 +142,8 @@
 
 @mixin checkCircle() {
   &::before {
-    background-image: url('../img/landing-sales/icon-checkmark.svg');
-    content: '';
+    background-image: url("../img/landing-sales/icon-checkmark.svg");
+    content: "";
     width: 60px;
     height: 60px;
     display: block;
@@ -152,7 +152,6 @@
     background-position: center center;
   }
 }
-
 
 @mixin downArrow() {
   &::before {
@@ -163,4 +162,14 @@
     background-position: center center;
     background-size: 20px 100%;
   }
+}
+
+@mixin dashLines() {
+  background-image: url("../img/landing-sales/dashlines.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  content: "";
+  width: 100%;
+  height: 20px;
+  display: block;
 }

@@ -1,4 +1,6 @@
 .landing-module-7 {
+  margin-bottom: 110px;
+  
   .list-inline {
     list-style: none;
     display: flex;
@@ -6,9 +8,10 @@
     font-size: 33px;
 
     li {
+
       &::before {
         content: "|";
-        margin: 0 1em;
+        margin: 0 1.5em;
       }
 
       &:first-child::before {
@@ -20,13 +23,25 @@
   h2 {
     font-size: 42px;
     font-weight: 600;
+    margin-top: 1.25em;
+    margin-bottom: 1.5em;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  p.blurb {
+    margin-top: 2em;
+    font-weight: 500;
   }
 
   .banner {
     position: relative;
     z-index: 0;
     padding-top: 184px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 
     &::before {
       content: "";

@@ -47,16 +47,29 @@
   ul.checks {
     list-style: none;
     padding-left: 0;
+    margin-bottom: 0;
 
     span {
       display: inline-block;
       overflow: hidden;
       @include check();
+      position: relative;
+      overflow: visible;
+
+      &::before {
+        background-size: 33px;
+        background-position: 0 0;
+        width: 33px;
+        height: 33px;
+       
+      }
     }
 
     li {
-      margin-bottom: 0.5em;
+      margin-bottom: .5em;
+      font-size: 21px;
       clear: both;
+      font-weight: 300;
     }
   }
 
