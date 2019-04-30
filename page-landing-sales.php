@@ -767,10 +767,9 @@
                 <div class="landing-module-26">
                     <div class="container">
                         <div class="row">
-                            <div class="col">
-                                <h2>WHY WE DO IT
-                                </h2>
-                                <p>
+                            <div class="col  black">
+                                <img src="<?=IMGURL?>landing-sales/why-we-do-it.svg" alt="" height="100">
+                                <p class="blurb">
                                     What if you could spend more time with your family?
                                     What if you had more time to run your business?
                                     What if your business could be found with a touch

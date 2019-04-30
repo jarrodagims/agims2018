@@ -23,6 +23,10 @@
     }
   }
 
+  .content {
+    overflow: hidden;
+  }
+
   .content-top {
     padding-top: 400px;
   }
@@ -155,5 +159,7 @@
   @import "landing-sales/landing-module-21";
   @import "landing-sales/landing-module-22";
   @import "landing-sales/landing-module-24";
+  @import "landing-sales/landing-module-25";
+  @import "landing-sales/landing-module-26";
   @import "landing-sales/ribbon";
 }
