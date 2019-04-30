@@ -1,0 +1,59 @@
+.landing-module-13 {
+  h2 {
+    font-weight: 500;
+  }
+
+  .bg-1 {
+    background: url("../img/landing-sales/need-a-website.jpg") 0 0 no-repeat;
+    background-size: cover;
+  }
+
+  .bg-2 {
+    background: url("../img/landing-sales/seo-leads.jpg") 0 0 no-repeat;
+    background-size: cover;
+  }
+
+  .gray {
+    background: #f6f6f6;
+  }
+
+  .dark-gray {
+    background: #e5e5e5;
+  }
+
+  .gray,
+  .dark-gray {
+    .extra-padding {
+      padding: 2em;
+    }
+  }
+
+  .dark-gray h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  p.blurb {
+    font-size: 22px;
+  }
+
+  .container {
+    max-width: 1530px;
+  }
+
+  .ribbon.black {
+    background: #000;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+
+
+    p {
+      font-size: 18px;
+      font-family: "roboto", sans-serif;
+    }
+  }
+}

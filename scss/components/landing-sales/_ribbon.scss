@@ -2,11 +2,26 @@
   background: #ff0000;
   text-align: center;
   padding: 1em 0;
+  color: $white;
 
   p {
     color: $white;
     margin-bottom: 0;
     font-size: 33px;
     @include montserrat();
+  }
+
+  &.gray {
+    background: #f1f1f1;
+
+    p {
+      color: $black;
+      font-size: 35px;
+    }
+
+    strong {
+      color: #ff0000;
+      font-weight: 500;
+    }
   }
 }

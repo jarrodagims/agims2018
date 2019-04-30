@@ -1,0 +1,59 @@
+.landing-module-12 {
+  color: $black;
+
+  .yellow {
+    .extra-padding {
+      padding-top: 90px;
+      padding-left: 120px;
+      padding-right: 120px;
+    }
+  }
+
+  .two-up {
+    margin-top: 0;
+
+    &::before {
+      display: none;
+    }
+
+    .cutout {
+      //position: absolute;
+      margin-right: -100px;
+      margin-top: -50px;
+      z-index: 9999;
+      height: calc(100% + 50px);
+
+      background: url("../img/landing-sales/cutout-guy.png") right 0 no-repeat;
+      background-size: auto 100%;
+    }
+
+    .col.blue {
+      display: flex;
+
+      .cutout {
+        flex: 1;
+      }
+    }
+  }
+
+  .border-split {
+    border-top: 1px solid $white;
+    border-bottom: 1px solid $white;
+    padding: 1em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    p {
+      margin: 0;
+      font-size: 27px;
+      @include montserrat();
+    }
+  }
+
+  p.blurb {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.5;
+  }
+}

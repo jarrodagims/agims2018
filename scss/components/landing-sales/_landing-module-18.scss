@@ -1,0 +1,37 @@
+.landing-module-18 {
+  padding-top: 95px;
+  padding-bottom: 95px;
+
+  p.blurb {
+    font-size: 27px;
+    color: $black;
+    @include montserrat();
+    margin: 2em 0 1em;
+    font-weight: 500;
+
+    strong {
+      color: $sherpa-secondary-color;
+    }
+  }
+
+  .img-container {
+    position: relative;
+    text-align: center;
+  }
+
+  .bottom-blurb {
+    position: absolute;
+    z-index: 9999;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  p.large {
+    font-size: 27px;
+  }
+}

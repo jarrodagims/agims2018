@@ -228,10 +228,10 @@
                         </div>
                     </div>
 
-                    <div class="container flush-box">
+                    <div class="container flush-box landing-text-box">
                         <div class="row">
                             <div class="col">
-                                <h2>Then it is EVEN MORE important<br class="d-md-block">
+                                <h2>Then it is EVEN <strong>MORE</strong> important<br class="d-md-block">
                                     to be on the top of page one.</h2>
                                 <p>Most people will probably see the top rankers in the maps listing, and choose who
                                     they call based on the review<br class="d-md-block">
@@ -253,16 +253,17 @@
             <div class="landing-module-10">
 
             </div>
-            <div class="gray">
-                <p>The fact is&mdash; your customers are talking.</p>
+            <div class="ribbon gray">
+                <p>The fact is&mdash; <strong>your customers are talking.</strong>
             </div>
 
-            <div class="landing-module-11">
-                <p>They’re tweeting about your product, commenting on your blog, and reviewing you
+            <div class="landing-module-11 landing-text-box">
+                <p class="blurb">They’re tweeting about your product, commenting on your blog, and reviewing you<br
+                        class="d-md-block">
                     on Google and Facebook.</p>
 
-                <p>The goal is to make sure they’re saying good things. One bad review can bring down your average
-                    substantially.</p>
+                <p><strong>The goal is to <em>make sure</em> they’re saying good things.</strong>
+                    One bad review can bring down your average substantially.</p>
 
                 <a href="">
                     <button class="btn btn-primary">
@@ -272,441 +273,485 @@
             </div>
 
             <div class="landing-module-12">
-                <p>Now, here’s the part you’re
-                    going to love… $$$</p>
+                <div class="ribbon ribbon-black">
+                    <p>Now, here’s the part you’re<br class="d-md-block">
+                        going to love… <span>$$$</span></p>
+                </div>
 
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col">
 
-                        </div>
-                        <div class="col">
 
-                            <p class="blurb">SEO, Searches, Reviews, and
-                                Mobile Strategies are all part of
-                                the digital paradigm.
-                            </p>
+                <div class="two-up">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col blue">
+                                <div class="cutout">
+                                    <!-- <img src="<?=IMGURL?>landing-sales/cutout-guy.png" alt=""> -->
+                                </div>
+                            </div>
+                            <div class="col yellow">
 
-                            <p class="blurb">Meaning they’re all attainable
-                                and cost effective!</p>
+                                <div class="extra-padding">
+                                    <p class="blurb">SEO, Searches, Reviews, and<br class="d-md-block">
+                                        Mobile Strategies are all part of<br class="d-md-block">
+                                        the digital paradigm.<br class="d-md-block">
+                                        <br class="d-md-block">
+                                        Meaning they’re all attainable<br class="d-md-block">
+                                        and cost effective!
+                                    </p>
 
-                            <p>Unlike Traditional Marketing, digital marketing
-                                measures your return on investment.</p>
+                                    <p>Unlike Traditional Marketing, digital marketing<br class="d-md-block">
+                                        measures your return on investment.</p>
 
-                            <p>With traditional marketing, customers will still
-                                Google you before they call or visit your store.</p>
+                                    <div class="border-split">
+                                        <p>With traditional marketing, customers <strong>
+                                                will still<br class="d-md-block">
+                                                <em>Google</em> you before they call or visit
+                                            </strong> your store.
+                                        </p>
+                                    </div>
 
-                            <p>The first place they will turn to is that powerful little search bar.</p>
+                                    <p>The first place they will turn to is that powerful little search bar.</p>
+                                </div>
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="landing-module-13">
+            <div class="landing-module-13 ">
 
-                <p>
-                    Whether they’re searching on Google, Yahoo, or
-                    Bing- it is imperative for your website to show up on the first page of the search results.
-                </p>
-
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col">
-                            <h2>Don’t have a website? Let’s Get Real</h2>
-
-                            <p>If you want your business to grow and stand
-                                out from your competition, you need a website
-                                ASAP, let us repeat that&hellip;</p>
-
-                            <p>But not just any website, a professional one - a responsive, lead-capturing,
-                                sales-increasing,
-                                Search Engine Optimized website.</p>
-                        </div>
-                        <div class="col">
-
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col"></div>
-                        <div class="col">
-                            <h2>Again with the SEO?
-                                Yup! Let those three little letters sink in.</h2>
-                            <p>SEO is your primary source of website traffic.
-                                It produces organic results and authentic visitors.</p>
-
-                            <img src="<?=IMGURL?>landing-sales/aka-leads.png" alt="AKA Leads">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col">
-                            <p>The better optimized your site is for SEO, the more visible your website becomes.
-                                Which in turn means, increased visitors and engagement for your business.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="landing-module-14">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h2>The Perks!</h2>
-
-                            <p>SEO is relatively cheap and a long term strategy.
-                                Plus, it aids customer trust and credibility.</p>
-
-                            <a href="">
-                                <button class="btn btn-primary">
-                                    Start Reaching More Customers Today!
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="landing-module-15">
-
-                <div class="container">
-                    <p>Looking for something a little more</p>
-                    <p class="large">IMMEDIATE?</p>
-                    <p>Maybe you know you need SEO - and you want to hit that longer term strategy, but you also want
-                        more business NOW.
+                <div class="landing-text-box">
+                    <p class="blurb">
+                        Whether they’re searching on Google, Yahoo, or<br class="d-md-block">
+                        Bing- it is imperative for your website to show up on<br class="d-md-block"> the first page of
+                        the search results.
                     </p>
                 </div>
 
-            </div>
+                <div class="four-up">
+                    <div class="container">
 
-            <div class="landing-module-16">
-                <div class="blue">
-                    <h2>Alright, deal! We’ve got you on that too!</h2>
-                </div>
+                        <div class="row">
+                            <div class="col dark-gray">
+                                <div class="extra-padding">
+                                    <h2>Don’t have a website? <br class="d-md-block">Let’s Get Real</h2>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <p>From who visits your site,
-                                to specific locations
-                                and even which terms people
-                                are searching for!</p>
+                                    <p>If you want your business to grow and stand<br class="d-md-block">
+                                        out from your competition, you need a website<br class="d-md-block">
+                                        ASAP, let us repeat that&hellip;</p>
+
+                                    <p>But not just any website, a professional one - a<br class="d-md-block">
+                                        responsive,
+                                        lead-capturing,
+                                        sales-increasing,<br class="d-md-block">
+                                        Search Engine Optimized website.</p>
+                                </div>
+                            </div>
+                            <div class="col bg-1">
+
+                            </div>
                         </div>
-                        <div class="col map">
+                        <div class="row">
+                            <div class="col bg-2"></div>
+                            <div class="col gray">
+                                <div class="extra-padding">
+                                    <h2>Again with the SEO?<br class="d-md-block">
+                                        Yup! Let those three little letters sink in.</h2>
+                                    <p>SEO is your primary source of website traffic.<br class="d-md-block">
+                                        It produces organic results and authentic visitors.</p>
 
+                                    <img src="<?=IMGURL?>landing-sales/aka-leads.png" alt="AKA Leads">
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="landing-module-17">
-                <div class="container-fluid yellow">
-                    <div class="row">
-                        <div class="col">
-                            <p>And not only is it <strong>more immediate</strong>
-                                but you can <strong>control it</strong>
-                                <p class="large">EVERY. PIECE.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="landing-module-18">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h2>NOT CONVINCED YET?!
-                                <span>HERE - CHECK IT OUT...</span>
-                            </h2>
-
-                            <p class="blurb">With digital advertising, you’re not just throwing a
-                                net hoping to catch a fish.</p>
-
-                            <p>You are reaching people who are actively searching for your services. </p>
-
-                            <img src="<?=IMGURL?>landing-sales/svg-map.svg" alt="You decide who
-sees your ads.">
-
-
-                            <p>You are in control & the opportunities
-                                are endless. </p>
+                        <div class="row">
+                            <div class="col ribbon black">
+                                <div class="">
+                                    <p>
+                                        The better optimized your site is for SEO, the more visible your website
+                                        becomes.<br class="d-md-block">
+                                        Which in turn means, increased visitors and engagement for your business.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="landing-module-19">
-                <p>Not Sure How to ADVERTISE DIGITALLY?</p>
-            </div>
-
-            <div class="ribbon">Let’s circle back to the search bar.</div>
 
 
-            <div class="landing-module-20">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h2>
-                                Have you ever
-                                Googled something like
-                            </h2>
-                            <p>“air conditioning company” or “roof repair”</p>
 
-                            <p>and had ads appear at the top of the page, right
-                                before maps and other results?</p>
-                        </div>
-                    </div>
+                <div class="landing-module-14">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col flush-box landing-text-box gray">
+                                <h2>The Perks!</h2>
 
-                    <div class="row">
-                        <div class="col">
-                            <p>THE ANSWER IS PROBABLY
-                                YES, RIGHT?</p>
-                            <p>These ads are a newer, innovative way of advertising
-                                your products and services directly to your customers.</p>
+                                <p>SEO is relatively cheap and a long term strategy.
+                                    Plus, it aids customer trust and credibility.</p>
+
+                                <a href="">
+                                    <button class="btn btn-primary">
+                                        Start Reaching More Customers Today!
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="landing-module-21">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h2>PAY-PER-CLICK</h2>
-                            <h3>(PPC) Ads</h3>
+                <div class="landing-module-15">
+
+                    <div class="container">
+                        <img src="<?=IMGURL?>landing-sales/immediate.svg" alt="" height="124">
+
+                        <p>Maybe you know you need SEO - and you want to hit that longer term strategy, but<br
+                                class="d-md-block"> you also
+                            want
+                            more business NOW.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="landing-module-16">
+                    <div class="ribbon blue">
+                        <h2>Alright, deal! We’ve got you on that too!</h2>
+                    </div>
+
+                    <div class="black">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="extra-padding">
+                                        <p>From who visits your site,<br class="d-md-block">
+                                            to specific locations<br class="d-md-block">
+                                            and even which terms people<br class="d-md-block">
+                                            are searching for!</p>
+                                    </div>
+                                </div>
+                                <div class="col map">
+
+                                </div>
+                            </div>
                         </div>
+                    </div>
 
-                        <div class="col">
-                            <h2>These are called search ads, or
-                                Pay-Per-Click (PPC) Ads.</h2>
+                    <div class="yellow">
+                        <img height="431" src="<?=IMGURL?>landing-sales/everypiece.svg"
+                            alt="And not only is it more immediate, but you can control it.">
+                    </div>
+                </div>
 
-                            <p>
-                                Pay-per-click advertising works by taking you to the top of search engine page
-                                and earning you higher qualified visitors to your site than you might get organically.
-                                The beauty is- you only pay when your ad gets clicked on.
+                <div class="landing-module-18">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <img height="161" src="<?=IMGURL?>landing-sales/not-convinced.svg" alt="NOT CONVINCED YET?!
+ HERE - CHECK IT OUT...">
 
-                            </p>
+                                <p class="blurb">With digital advertising, you’re not just throwing a<br
+                                        class="d-md-block">
+                                    net hoping to catch a fish.</p>
 
-                            <p>Essentially, you pay for results!</p>
+                                <p>You are reaching people who are actively searching for your services. </p>
 
-                            <a href="">
-                                <button class="btn btn-primary">
-                                    I Want More Leads Now
-                                </button>
-                            </a>
+                                <div class="img-container">
+                                    <img src="<?=IMGURL?>landing-sales/svg-map.svg" alt="You decide who
+    sees your ads.">
+
+
+                                    <p class="blurb bottom-blurb">You are in <strong>control</strong> opportunities<br
+                                            class="d-md-block">
+                                        are <strong>endless.</strong> </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="landing-module-22">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h2><span>
-                                    It’s Time to Up Your
-                                </span>
+                <div class="landing-module-19">
+                    <div class="ribbon black">
+                        <img src="<?=IMGURL?>landing-sales/advertise-digitally.svg"
+                            alt="Not sure how to advertise digitally?" height="124">
+                    </div>
+                    <div class="ribbon">Let’s circle back to the search bar.</div>
+                </div>
 
-                                ADVERTISING GAME
-                            </h2>
-                            <p>We’re not saying you shouldn’t have billboards, radio ads, TV ads - maybe even an ad in a
-                                magazine But WE ARE saying. You can’t stop there.</p>
+
+
+
+                <div class="landing-module-20">
+                    <div class="container">
+                        <div class="row  gray">
+                            <div class="col">
+                                <h2>
+                                    Have you ever
+                                    <span>Googled</span>
+                                    something like
+                                </h2>
+                                <p>“air conditioning company” or “roof repair”</p>
+
+                                <p>and had ads appear at the top of the page, right
+                                    before maps and other results?</p>
+                            </div>
+                        </div>
+
+                        <div class="row  dark-gray">
+                            <div class="col">
+                                <h2>THE ANSWER IS PROBABLY
+                                    <span>YES, RIGHT?</span></h2>
+                                <p>These ads are a newer, innovative way of advertising
+                                    your products and services directly to your customers.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="landing-module-24">
-                <p>Just as SEO, online review management and search ads are essential to expand your reach and bring in
-                    more customers so are:
-                </p>
+                <div class="landing-module-21">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h2>PAY-PER-CLICK</h2>
+                                <h3>(PPC) Ads</h3>
+                            </div>
 
-                <ul class="list-inline">
-                    <li>
-                        Display Ads</li>
-                    <li>
-                        Remarketing Ads</li>
-                    <li>
-                        Social Media Ads</li>
-                    <li>
-                        YouTube Ads</li>
-                    </li>
-                </ul>
+                            <div class="col">
+                                <h2>These are called search ads, or
+                                    Pay-Per-Click (PPC) Ads.</h2>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h2>SOCIAL MEDIA</h2>
+                                <p>
+                                    Pay-per-click advertising works by taking you to the top of search engine page
+                                    and earning you higher qualified visitors to your site than you might get
+                                    organically.
+                                    The beauty is- you only pay when your ad gets clicked on.
 
-                            <p>
-                                Now THIS is a big one.
-                            </p>
+                                </p>
 
-                            <p>
-                                Did you know there are 1.1 billion daily
-                                users on Facebook alone? WHAT?!
-                            </p>
+                                <p>Essentially, you pay for results!</p>
 
-                            <p>
-                                Yeah - that number is ridiculous, and we know not all of them are looking for your
-                                business specifically. Probably not even 1/10th of them. However - it does mean the
-                                people you ARE trying to reach, can be found there.
-                            </p>
-
-                            <p>
-                                Not to mention all other social media platforms like instagram swarming with millions of
-                                potential customers you can reach as long as you’re talking to them, and offering them
-                                things they cannot refuse.
-                            </p>
-
-                        </div>
-
-                        <div class="col">
-                            <h2>YOUTUBE</h2>
-                            <p>Imagine your brand, visible to billions of people browsing videos related to your
-                                products, just imagine that...
-                            </p>
-
-                            <ul>
-                                <li>
-                                    After Facebook and Google, YouTube
-                                    is the 3rd most visited website in
-                                    the WORLD! </li>
-
-                                <li>Almost 5 billion videos are watched on
-                                    YouTube every day. </li>
-
-                                <li>Businesses who take advantage of
-                                    YouTube Ads understand the powerful
-                                    tool at their hands.
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col">
-                            <h2>REMARKETING</h2>
-
-                            <p>
-                                Ever check out a website, or a product on a site and then all of a sudden an ad for that
-                                company or product is EVERYWHERE?!
-                            </p>
-
-                            <h2>
-                                Yeah - that’s this.
-                            </h2>
-
-                            <p>
-                                And we know it can be annoying,
-                                but we also know that it does help to bring in more business.
-                            </p>
-
-                            <p>
-                                How can someone say no when they’re constantly reminded how much they neeeeeeed that
-                                teeth whitening service.
-                                Or that new kitchen remodel?
-                            </p>
-
-                            <p>
-                                Top of mind = more sales.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col">
-                            <h2>Display</h2>
-
-                            <p>Display ads utilize images, banners and more to get your message
-                                across. These can show on relevant website across the web, related to
-                                your business. Branding. Get your name out there already!</p>
+                                <a href="">
+                                    <button class="btn btn-primary">
+                                        I Want More Leads Now
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="landing-module-25">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h2>When It Comes to Digital - You Are in Control</h2>
-                            <p>Regardless of the type of digital advertising you use, you can be as specific as you
-                                want.</p>
+                <div class="landing-module-22">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h2><span>
+                                        It’s Time to Up Your
+                                    </span>
 
-                            <ol class="list-inline">
-                                <li>Target users by their Location, Age, Interest, and Online Behavior.</li>
-                                <li>Choose the dates and times you'd like your ads displayed.</li>
-                                <li>Most importantly, communicate more efficiently.</li>
-                                <li>Alter your ad text any time you want and relay your message at any given time.</li>
-                            </ol>
+                                    ADVERTISING GAME
+                                </h2>
+                                <p>We’re not saying you shouldn’t have billboards, radio ads, TV ads - maybe even an ad
+                                    in a
+                                    magazine But WE ARE saying. You can’t stop there.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="landing-module-26">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h2>WHY WE DO IT
-                            </h2>
-                            <p>
-                                What if you could spend more time with your family?
-                                What if you had more time to run your business?
-                                What if your business could be found with a touch
-                                of a button?</p>
+                <div class="landing-module-24">
+                    <p>Just as SEO, online review management and search ads are essential to expand your reach and bring
+                        in
+                        more customers so are:
+                    </p>
+
+                    <ul class="list-inline">
+                        <li>
+                            Display Ads</li>
+                        <li>
+                            Remarketing Ads</li>
+                        <li>
+                            Social Media Ads</li>
+                        <li>
+                            YouTube Ads</li>
+                        </li>
+                    </ul>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h2>SOCIAL MEDIA</h2>
+
+                                <p>
+                                    Now THIS is a big one.
+                                </p>
+
+                                <p>
+                                    Did you know there are 1.1 billion daily
+                                    users on Facebook alone? WHAT?!
+                                </p>
+
+                                <p>
+                                    Yeah - that number is ridiculous, and we know not all of them are looking for your
+                                    business specifically. Probably not even 1/10th of them. However - it does mean the
+                                    people you ARE trying to reach, can be found there.
+                                </p>
+
+                                <p>
+                                    Not to mention all other social media platforms like instagram swarming with
+                                    millions of
+                                    potential customers you can reach as long as you’re talking to them, and offering
+                                    them
+                                    things they cannot refuse.
+                                </p>
+
+                            </div>
+
+                            <div class="col">
+                                <h2>YOUTUBE</h2>
+                                <p>Imagine your brand, visible to billions of people browsing videos related to your
+                                    products, just imagine that...
+                                </p>
+
+                                <ul>
+                                    <li>
+                                        After Facebook and Google, YouTube
+                                        is the 3rd most visited website in
+                                        the WORLD! </li>
+
+                                    <li>Almost 5 billion videos are watched on
+                                        YouTube every day. </li>
+
+                                    <li>Businesses who take advantage of
+                                        YouTube Ads understand the powerful
+                                        tool at their hands.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col">
+                                <h2>REMARKETING</h2>
+
+                                <p>
+                                    Ever check out a website, or a product on a site and then all of a sudden an ad for
+                                    that
+                                    company or product is EVERYWHERE?!
+                                </p>
+
+                                <h2>
+                                    Yeah - that’s this.
+                                </h2>
+
+                                <p>
+                                    And we know it can be annoying,
+                                    but we also know that it does help to bring in more business.
+                                </p>
+
+                                <p>
+                                    How can someone say no when they’re constantly reminded how much they neeeeeeed that
+                                    teeth whitening service.
+                                    Or that new kitchen remodel?
+                                </p>
+
+                                <p>
+                                    Top of mind = more sales.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p>We focus on your marketing solutions so
-                                that you can focus on what you love.</p>
+
+                        <div class="row">
+                            <div class="col">
+                                <h2>Display</h2>
+
+                                <p>Display ads utilize images, banners and more to get your message
+                                    across. These can show on relevant website across the web, related to
+                                    your business. Branding. Get your name out there already!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="landing-module-27">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h2>We are OBSESSED with your growth,
-                                and making you the absolute
-                                best business you can be.</h2>
+                <div class="landing-module-25">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h2>When It Comes to Digital - You Are in Control</h2>
+                                <p>Regardless of the type of digital advertising you use, you can be as specific as you
+                                    want.</p>
+
+                                <ol class="list-inline">
+                                    <li>Target users by their Location, Age, Interest, and Online Behavior.</li>
+                                    <li>Choose the dates and times you'd like your ads displayed.</li>
+                                    <li>Most importantly, communicate more efficiently.</li>
+                                    <li>Alter your ad text any time you want and relay your message at any given time.
+                                    </li>
+                                </ol>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid yellow">
-                    <div class="row">
-                        <div class="col">
-                            <p>
-                                IT’S THAT SIMPLE
-                            </p>
+
+                <div class="landing-module-26">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h2>WHY WE DO IT
+                                </h2>
+                                <p>
+                                    What if you could spend more time with your family?
+                                    What if you had more time to run your business?
+                                    What if your business could be found with a touch
+                                    of a button?</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>We focus on your marketing solutions so
+                                    that you can focus on what you love.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="landing-module-27">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h2>We are OBSESSED with your growth,
+                                    and making you the absolute
+                                    best business you can be.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid yellow">
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    IT’S THAT SIMPLE
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="landing-module-28">
+                    <p>Whether you just launched your ribbon cutting party or have been running your
+                        business for over 20 years. We tailor our services to each industry and each client. </p>
+                    <p class="blurb">
+
+                        Digital Marketing has taken over, and frankly, if you’re not taking
+                        advantage of it... you probably won’t be in business much longer.</p>
+
+                    <a href="">
+                        <button class="btn btn-primary">
+                            I’m Ready to Start, Send Me Some Pricing!
+                        </button>
+                    </a>
+                </div>
+
             </div>
-
-            <div class="landing-module-28">
-                <p>Whether you just launched your ribbon cutting party or have been running your
-                    business for over 20 years. We tailor our services to each industry and each client. </p>
-                <p class="blurb">
-
-                    Digital Marketing has taken over, and frankly, if you’re not taking
-                    advantage of it... you probably won’t be in business much longer.</p>
-
-                <a href="">
-                    <button class="btn btn-primary">
-                        I’m Ready to Start, Send Me Some Pricing!
-                    </button>
-                </a>
-            </div>
-
+            <!-- content bottom -->
         </div>
-        <!-- content bottom -->
-    </div>
     </div>
 
 

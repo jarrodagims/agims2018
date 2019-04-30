@@ -1,0 +1,41 @@
+.landing-module-16 {
+  .ribbon.blue {
+    background: $sherpa-secondary-color;
+    color: $white;
+
+    h2 {
+      font-size: 33px;
+      padding: 0 0;
+    }
+  }
+
+  .black {
+    background: $black;
+    color: $white;
+
+    p {
+      font-size: 33px;
+      line-height: 1.5;
+    }
+
+    .col .extra-padding {
+      padding-top: 10em;
+      padding-bottom: 10em;
+    }
+
+    text-align: left;
+
+    .map {
+      &::before {
+        background: url("../img/landing-sales/bg-map.jpg") 0 100% no-repeat;
+        background-size: cover;
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 50vw;
+        display: block;
+        height: 100%;
+      }
+    }
+  }
+}
