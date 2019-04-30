@@ -2,6 +2,36 @@
   position: relative;
   background: #f1f1f1;
   text-align: left;
+  overflow: visible;
+
+  .dark-gray .extra-padding,
+  .gray .extra-padding {
+    padding: 3em 0;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url("../img/landing-sales/bg-ipad.png");
+    background-position: 0 0;
+    background-size: 100%;
+    width: 50vw;
+    height: 100%;
+    z-index: 999;
+  }
+
+  .col.bg-ipad {
+    position: relative;
+    overflow: visible;
+  }
+
+  h2 strong {
+    color: $sherpa-secondary-color;
+    font-weight: 500;
+  }
 
   .gray {
     position: relative;

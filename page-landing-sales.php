@@ -486,81 +486,100 @@
                     <div class="container">
                         <div class="row  gray">
                             <div class="col">
-                                <h2>
-                                    Have you ever
-                                    <span>Googled</span>
-                                    something like
-                                </h2>
-                                <p>“air conditioning company” or “roof repair”</p>
+                                <div class="extra-padding">
+                                    <h2>
+                                        Have you ever
+                                        <strong>Googled</strong>
+                                        something like
+                                    </h2>
+                                    <p>“air conditioning company” or “roof repair”</p>
 
-                                <p>and had ads appear at the top of the page, right
-                                    before maps and other results?</p>
+                                    <p>and had ads appear at the top of the page, right
+                                        before maps and other results?</p>
+                                </div>
+                            </div>
+                            <div class="col bg-ipad">
+
                             </div>
                         </div>
 
                         <div class="row  dark-gray">
                             <div class="col">
-                                <h2>THE ANSWER IS PROBABLY
-                                    <span>YES, RIGHT?</span></h2>
-                                <p>These ads are a newer, innovative way of advertising
-                                    your products and services directly to your customers.</p>
+                                <div class="extra-padding">
+                                    <h2>THE ANSWER IS PROBABLY
+                                        <span>YES, RIGHT?</span></h2>
+                                    <p>These ads are a newer, innovative way of advertising<br class="d-md-block">
+                                        your products and services directly to your customers.</p>
+                                </div>
+                            </div>
+                            <div class="col">
+
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="landing-module-21">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <h2>PAY-PER-CLICK</h2>
-                                <h3>(PPC) Ads</h3>
-                            </div>
+                    <div class="ppc-banner">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col">
 
-                            <div class="col">
-                                <h2>These are called search ads, or
-                                    Pay-Per-Click (PPC) Ads.</h2>
+                                </div>
 
-                                <p>
-                                    Pay-per-click advertising works by taking you to the top of search engine page
-                                    and earning you higher qualified visitors to your site than you might get
-                                    organically.
-                                    The beauty is- you only pay when your ad gets clicked on.
+                                <div class="col">
+                                    <div class="landing-text-box">
+                                        <div class="extra-padding">
+                                            <h2>These are called search ads, or<br class="d-md-block">
+                                                Pay-Per-Click (PPC) Ads.</h2>
 
-                                </p>
+                                            <p>
+                                                Pay-per-click advertising works by taking you to the top of search
+                                                engine
+                                                page<br class="d-md-block">
+                                                and earning you higher qualified visitors to your site than you might
+                                                get<br class="d-md-block">
+                                                organically.
+                                                The beauty is- you only pay when your ad gets clicked on.
+                                            </p>
 
-                                <p>Essentially, you pay for results!</p>
+                                            <h2 class="blurb">Essentially, <span class="red">you pay for results!</span>
+                                            </h2>
 
-                                <a href="">
-                                    <button class="btn btn-primary">
-                                        I Want More Leads Now
-                                    </button>
-                                </a>
+                                            <a href="">
+                                                <button class="btn btn-primary">
+                                                    I Want More Leads Now
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="landing-module-22">
+                <div class="landing-module-22 yellow">
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <h2><span>
-                                        It’s Time to Up Your
-                                    </span>
 
-                                    ADVERTISING GAME
-                                </h2>
+                                <img src="<?=IMGURL?>landing-sales/advertising-game.svg"
+                                    alt="It's time to up your Advertising Game" height="157">
+
                                 <p>We’re not saying you shouldn’t have billboards, radio ads, TV ads - maybe even an ad
                                     in a
-                                    magazine But WE ARE saying. You can’t stop there.</p>
+                                    magazine.<br class="d-md-block"> But <span class="red">WE ARE</span> saying. You
+                                    can’t stop there.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="landing-module-24">
-                    <p>Just as SEO, online review management and search ads are essential to expand your reach and bring
+                    <p class="blurb">Just as <span class="brand">SEO</span>, online review management and search ads are
+                        essential to<br class="d-md-block"> expand your
+                        reach and bring
                         in
                         more customers so are:
                     </p>
@@ -577,95 +596,134 @@
                         </li>
                     </ul>
 
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="col">
-                                <h2>SOCIAL MEDIA</h2>
+                                <div class="social-tab">
+                                    <h2>
+                                        <div class="icon icon-phone">
+                                           
+                                        </div>
+                                        SOCIAL MEDIA
+                                    </h2>
 
-                                <p>
-                                    Now THIS is a big one.
-                                </p>
+                                    <div class="extra-padding">
+                                        <p class="blurb">
+                                            Now THIS <strong>is a big one.</strong>
+                                        </p>
 
-                                <p>
-                                    Did you know there are 1.1 billion daily
-                                    users on Facebook alone? WHAT?!
-                                </p>
+                                        <p>
+                                            Did you know there are 1.1 billion daily
+                                            users on Facebook alone? WHAT?!
+                                        </p>
 
-                                <p>
-                                    Yeah - that number is ridiculous, and we know not all of them are looking for your
-                                    business specifically. Probably not even 1/10th of them. However - it does mean the
-                                    people you ARE trying to reach, can be found there.
-                                </p>
+                                        <p>
+                                            Yeah - that number is ridiculous, and we know not all of them are looking
+                                            for
+                                            your
+                                            business specifically. Probably not even 1/10th of them. However - it does
+                                            mean
+                                            the
+                                            people you ARE trying to reach, can be found there.
+                                        </p>
 
-                                <p>
-                                    Not to mention all other social media platforms like instagram swarming with
-                                    millions of
-                                    potential customers you can reach as long as you’re talking to them, and offering
-                                    them
-                                    things they cannot refuse.
-                                </p>
+                                        <p>
+                                            Not to mention all other social media platforms like instagram swarming with
+                                            millions of
+                                            potential customers you can reach as long as you’re talking to them, and
+                                            offering
+                                            them
+                                            things they cannot refuse.
+                                        </p>
+                                    </div>
+                                </div>
 
                             </div>
 
                             <div class="col">
-                                <h2>YOUTUBE</h2>
-                                <p>Imagine your brand, visible to billions of people browsing videos related to your
-                                    products, just imagine that...
-                                </p>
+                                <div class="social-tab">
+                                    <h2>YOUTUBE</h2>
+                                    <div class="extra-padding">
+                                        <p>Imagine your brand, visible to billions of people browsing videos related to
+                                            your
+                                            products, <span class="blue"><strong>just imagine that</strong></span>...
+                                        </p>
 
-                                <ul>
-                                    <li>
-                                        After Facebook and Google, YouTube
-                                        is the 3rd most visited website in
-                                        the WORLD! </li>
+                                        <ul class="check-list">
+                                            <li>
+                                                After Facebook and Google, YouTube
+                                                is the <strong>
+                                                    3rd most visited website in
+                                                    the WORLD!
+                                                </strong> </li>
 
-                                    <li>Almost 5 billion videos are watched on
-                                        YouTube every day. </li>
+                                            <li>Almost 5 billion videos are watched on
+                                                YouTube <strong>every day.</strong></li>
 
-                                    <li>Businesses who take advantage of
-                                        YouTube Ads understand the powerful
-                                        tool at their hands.
-                                    </li>
-                                </ul>
+                                            <li>Businesses who take advantage of
+                                                YouTube Ads understand the <strong>
+                                                    powerful
+                                                    tool
+                                                </strong> at their hands.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="col">
-                                <h2>REMARKETING</h2>
+                                <div class="social-tab">
+                                    <h2>REMARKETING</h2>
 
-                                <p>
-                                    Ever check out a website, or a product on a site and then all of a sudden an ad for
-                                    that
-                                    company or product is EVERYWHERE?!
-                                </p>
+                                    <div class="extra-padding">
+                                        <p>
+                                            Ever check out a website, or a product on a site and then all of a sudden an
+                                            ad
+                                            for
+                                            that
+                                            company or product <strong>is EVERYWHERE?!</strong>
+                                        </p>
 
-                                <h2>
-                                    Yeah - that’s this.
-                                </h2>
 
-                                <p>
-                                    And we know it can be annoying,
-                                    but we also know that it does help to bring in more business.
-                                </p>
+                                        <p class="blurb blue">
+                                            Yeah - that’s this.
+                                        </p>
 
-                                <p>
-                                    How can someone say no when they’re constantly reminded how much they neeeeeeed that
-                                    teeth whitening service.
-                                    Or that new kitchen remodel?
-                                </p>
 
-                                <p>
-                                    Top of mind = more sales.
-                                </p>
+                                        <p>
+                                            And we know it can be annoying,
+                                            but we also know that it does help to bring in more business.
+                                        </p>
+
+                                        <p>
+                                            How can someone say no when they’re constantly reminded how much they
+                                            neeeeeeed
+                                            that
+                                            teeth whitening service.
+                                            Or that new kitchen remodel?
+                                        </p>
+
+                                        <p>
+                                            Top of mind = more sales.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col">
-                                <h2>Display</h2>
+                                <div class="social-tab sideways">
 
-                                <p>Display ads utilize images, banners and more to get your message
-                                    across. These can show on relevant website across the web, related to
-                                    your business. Branding. Get your name out there already!</p>
+                                    <h2>Display</h2>
+                                    <div class="extra-padding">
+                                        <p>Display ads utilize images, banners and more to get your message<br
+                                                class="d-md-block">
+                                            across. These can show on relevant website across the web, related to<br
+                                                class="d-md-block">
+                                            your business. Branding. Get your name out there already!</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
