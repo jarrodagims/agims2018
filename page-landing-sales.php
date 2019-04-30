@@ -602,7 +602,7 @@
                                 <div class="social-tab">
                                     <h2>
                                         <div class="icon icon-phone">
-                                           
+
                                         </div>
                                         SOCIAL MEDIA
                                     </h2>
@@ -642,7 +642,12 @@
 
                             <div class="col">
                                 <div class="social-tab">
-                                    <h2>YOUTUBE</h2>
+                                    <h2>
+                                        <div class="icon icon-youtube">
+
+                                        </div>
+                                        YOUTUBE
+                                    </h2>
                                     <div class="extra-padding">
                                         <p>Imagine your brand, visible to billions of people browsing videos related to
                                             your
@@ -673,7 +678,12 @@
 
                             <div class="col">
                                 <div class="social-tab">
-                                    <h2>REMARKETING</h2>
+                                    <h2>
+                                        <div class="icon icon-remarketing">
+
+                                        </div>
+                                        REMARKETING
+                                    </h2>
 
                                     <div class="extra-padding">
                                         <p>
@@ -712,10 +722,15 @@
                         </div>
 
                         <div class="row">
-                            <div class="col">
+                            <div class="col display-col">
                                 <div class="social-tab sideways">
 
-                                    <h2>Display</h2>
+                                    <h2>
+                                        <div class="icon icon-display">
+
+                                        </div>
+                                        Display
+                                    </h2>
                                     <div class="extra-padding">
                                         <p>Display ads utilize images, banners and more to get your message<br
                                                 class="d-md-block">
