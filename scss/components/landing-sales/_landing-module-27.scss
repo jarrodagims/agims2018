@@ -1,0 +1,16 @@
+.landing-module-27 {
+  background: url("../img/landing-sales/bg-space.jpg") center 100% no-repeat;
+  background-size: cover;
+  color: $white;
+  min-height: 845px;
+  padding-top: 96px;
+
+  p {
+    color: $white;
+    font-weight: 600;
+
+    strong {
+      color: $sherpa-secondary-color;
+    }
+  }
+}
