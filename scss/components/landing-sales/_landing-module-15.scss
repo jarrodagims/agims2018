@@ -4,4 +4,12 @@
   img {
     margin-bottom: 2em;
   }
+
+  @include media-breakpoint-down(lg) {  
+    padding: 2em 15px;
+  
+      img {
+        margin-bottom: 0;
+      }
+  }
 }

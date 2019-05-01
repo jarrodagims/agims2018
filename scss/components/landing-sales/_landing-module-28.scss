@@ -22,4 +22,25 @@
   .red {
     color: red;
   }
+
+  @include media-breakpoint-down(lg) {
+  
+
+    .content-top {
+      padding-top: 100px;
+    }
+
+    p {
+      @include mobile-type();
+
+    }
+
+    h1 {
+      @include mobile-heading();
+    }
+
+    h2, p.blurb {
+      @include mobile-heading2();
+    }
+  }
 }

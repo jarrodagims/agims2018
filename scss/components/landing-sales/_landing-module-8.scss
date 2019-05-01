@@ -61,4 +61,35 @@
       }
     }
   }
+
+  @include media-breakpoint-down(lg) {
+    text-align: center;
+    padding: 2em 0;
+
+    h2 {
+      text-align: center;
+    }
+
+    .flex-col > div {
+      margin: 1em 0;
+      padding: 2em 15px;
+    }
+
+    .content-top {
+      padding-top: 100px;
+    }
+
+    p {
+      @include mobile-type();
+
+    }
+
+    h1 {
+      @include mobile-heading();
+    }
+
+    h2, p.blurb {
+      @include mobile-heading2();
+    }
+  }
 }

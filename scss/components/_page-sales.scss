@@ -1,4 +1,16 @@
 .page-template-page-landing-sales {
+  @mixin mobile-heading() {
+    font-size: 20px;
+  }
+
+  @mixin mobile-heading2() {
+    font-size: 18px;
+  }
+
+  @mixin mobile-type() {
+    font-size: 15px;
+  }
+
   background: #000 url("../img/landing-sales/bg-landing-page-sales.jpg") 0 0
     no-repeat;
   background-size: contain;
@@ -82,6 +94,7 @@
 
   .yellow {
     background: #eee30c;
+    padding: 2em 0;
   }
 
   .blue {
@@ -152,6 +165,7 @@
   @import "landing-sales/landing-module-8";
   @import "landing-sales/landing-module-9";
   @import "landing-sales/landing-module-10";
+  @import "landing-sales/landing-module-11";
   @import "landing-sales/landing-module-12";
   @import "landing-sales/landing-module-13";
   @import "landing-sales/landing-module-14";
@@ -168,4 +182,70 @@
   @import "landing-sales/landing-module-27";
   @import "landing-sales/landing-module-28";
   @import "landing-sales/ribbon";
+
+  @include media-breakpoint-down(lg) {
+    background: #000 url("../img/landing-sales/bg-warning-mobile.jpg") 0 0
+      no-repeat;
+    background-size: contain;
+
+    .btn {
+      white-space: inherit;
+    }
+
+    .landing-text-box {
+      padding: 2em 15px;
+
+      p.blurb {
+        @include mobile-heading2();
+      }
+
+      p {
+        @include mobile-type();
+      }
+    }
+
+    .extra-padding {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    ul.checks {
+      margin-bottom: 2em;
+    }
+
+    ul.checks li {
+      @include mobile-type();
+    }
+
+    .btn.btn-primary {
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+
+    .row {
+      flex-direction: column;
+
+      .col {
+        flex: 1;
+        padding: 2em 0;
+      }
+    }
+
+    .content-top {
+      padding-top: 100px;
+    }
+
+    p {
+      @include mobile-type();
+    }
+
+    h1 {
+      @include mobile-heading();
+    }
+
+    h2,
+    p.blurb {
+      @include mobile-heading2();
+    }
+  }
 }

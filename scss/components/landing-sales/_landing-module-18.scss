@@ -34,4 +34,31 @@
   p.large {
     font-size: 27px;
   }
+
+  @include media-breakpoint-down(lg) {  
+
+    padding: 0 15px;
+
+    img {
+      height: auto;
+    }
+
+    .bottom-blurb {
+      position: relative;
+    }
+
+     p {
+      @include mobile-type();
+    }
+
+    h1 {
+      @include mobile-heading();
+    }
+
+    h2,
+    p.blurb {
+      @include mobile-heading2();
+    }
+
+  }
 }

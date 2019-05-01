@@ -39,4 +39,27 @@
   p {
     margin-bottom: 0;
   }
+
+  @include media-breakpoint-down(lg) {
+    background: #000 url("../img/landing-sales/bg-warning-mobile.jpg") 0 0
+      no-repeat;
+    background-size: cover;
+
+    .content-top {
+      padding-top: 100px;
+    }
+
+    p {
+      @include mobile-type();
+
+    }
+
+    h1 {
+      @include mobile-heading();
+    }
+
+    h2, p.blurb {
+      @include mobile-heading2();
+    }
+  }
 }

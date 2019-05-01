@@ -18,7 +18,7 @@
       line-height: 1.5;
     }
 
-    .col .extra-padding {
+    .extra-padding {
       padding-top: 10em;
       padding-bottom: 10em;
     }
@@ -37,5 +37,37 @@
         height: 100%;
       }
     }
+  }
+
+  @include media-breakpoint-down(lg) {  
+
+    .yellow {
+      padding: 0 30px;
+    }
+
+    .map {
+       background: url(../img/landing-sales/bg-map.jpg) 0 100% no-repeat;
+       background-size: cover;
+       height: 200px;
+
+       &::before {
+         display: none !important;
+       }
+    }
+
+    .col .extra-padding {
+      padding: 0 15px;
+      text-align: center;
+
+      p {
+        @include mobile-heading2();
+      }
+    }
+
+    .ribbon.blue h2 {
+      font-size: 1em;
+      margin-bottom: 0;
+    }
+
   }
 }

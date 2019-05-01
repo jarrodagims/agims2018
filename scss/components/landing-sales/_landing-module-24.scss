@@ -4,8 +4,15 @@
   color: $white;
   padding: 169px 0 0;
 
-  &::before {
+  .holder {
+    margin: 0 30px;
+    position: relative;
+
+    &::before {
     content: "";
+    height: 100%;
+    width: 100%;
+    
     background: -moz-linear-gradient(
       50% 0% -90deg,
       rgba(255, 255, 255, 0) 0%,
@@ -47,6 +54,9 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  }
+
+  
 
   p.blurb {
     font-weight: 600;
@@ -208,5 +218,26 @@
 
   .check-list {
     text-align: left;
+  }
+
+  @include media-breakpoint-down(lg) {
+   
+
+    .content-top {
+      padding-top: 100px;
+    }
+
+    p {
+      @include mobile-type();
+
+    }
+
+    h1 {
+      @include mobile-heading();
+    }
+
+    h2, p.blurb {
+      @include mobile-heading2();
+    }
   }
 }

@@ -3,4 +3,10 @@
     font-size: 33px;
     padding: .5em 0;
   }
+
+  @include media-breakpoint-down(lg) {  
+    .ribbon {
+      font-size: 1em;
+    }
+  }
 }

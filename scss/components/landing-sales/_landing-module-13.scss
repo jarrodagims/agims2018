@@ -57,4 +57,31 @@
       font-family: "roboto", sans-serif;
     }
   }
+
+   @include media-breakpoint-down(lg) {  
+
+   .ribbon.black {
+     padding: 2em 30px;
+     p {
+       font-size: 1em;
+     }
+   }
+
+    p {
+      @include mobile-type();
+    }
+
+    h1 {
+      @include mobile-heading();
+    }
+
+    .dark-gray h2, p.blurb {
+      @include mobile-heading2();
+    }
+
+      p {
+        margin-bottom: 0;
+        @include mobile-type();
+      }
+   }
 }

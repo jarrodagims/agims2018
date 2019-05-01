@@ -110,3 +110,40 @@ h1 span {
   }
 }
  
+
+@include media-breakpoint-down(lg) {
+
+  .bg-truth {
+    min-height: 500px;
+  }
+  
+  .box {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+   
+     p {
+        @include mobile-type();
+     } 
+  }
+
+  .extra-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .checkmarks {
+    width: 100%;
+
+    flex-direction: column;
+
+    .col {
+      flex: 1;
+    }
+  }
+
+  h1, .box .box-header {
+    @include mobile-heading();
+  }
+}

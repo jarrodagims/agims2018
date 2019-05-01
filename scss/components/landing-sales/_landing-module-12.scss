@@ -56,4 +56,36 @@
     color: #000;
     line-height: 1.5;
   }
+
+  @include media-breakpoint-down(lg) { 
+
+    .yellow .extra-padding {
+      padding: 2em 15px;
+    }
+
+    p:nth-child(2) {
+      margin-bottom: 0;
+    }
+
+    p {
+      @include mobile-type();
+    }
+
+    h1 {
+      @include mobile-heading();
+    }
+
+    h2, p.blurb {
+      @include mobile-heading2();
+    }
+
+    .border-split {
+      margin: 2em 0;
+    }
+
+    .border-split p {
+      @include mobile-heading2();
+    }
+    
+  }
 }

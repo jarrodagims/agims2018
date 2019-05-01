@@ -24,4 +24,14 @@
       font-weight: 500;
     }
   }
+
+  @include media-breakpoint-down(lg) {
+    p {
+      font-size: 1em;
+    }
+
+    &.gray p {
+      font-size: 1em;
+    }
+  }
 }

@@ -39,4 +39,39 @@
       margin-top: 1.25em;
     }
   }
+
+  @include media-breakpoint-down(lg) {
+    .extra-padding {
+      padding: 2em 15px;
+    }
+
+    .gray {
+      background: #F1F1F1;
+    }
+
+    .btn {
+      font-size: 23px;
+    }
+
+    &::before {
+      display: none;
+    }
+
+    .content-top {
+      padding-top: 100px;
+    }
+
+    p {
+      @include mobile-type();
+
+    }
+
+    h1 {
+      @include mobile-heading();
+    }
+
+    h2, p.blurb {
+      @include mobile-heading2();
+    }
+  }
 }

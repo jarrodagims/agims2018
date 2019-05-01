@@ -1,25 +1,11 @@
-.landing-module-22 {
-  color: $black;
-  padding: 4em 0;
-
-  .red {
-    color: red;
-  }
-
-  p {
-    margin-top: 2em;
-  }
-
+.landing-module-11 {
   @include media-breakpoint-down(lg) {
-   
-
-    .content-top {
-      padding-top: 100px;
+    .btn {
+      margin-bottom: 0;
     }
 
     p {
       @include mobile-type();
-
     }
 
     h1 {

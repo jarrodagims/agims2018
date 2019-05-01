@@ -8,4 +8,60 @@
     @include montserrat();
     margin-bottom: 1.5em;
   }
+
+  .list-inline {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: $black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    li {
+      font-size: 33px;
+      &::before {
+        content: "|";
+        margin: 0 1.5em;
+      }
+
+      &:first-child::before {
+        display: none;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    padding: 2em 15px;
+
+    .list-inline {
+      flex-direction: column;
+      text-align: center;
+
+      li {
+        margin-bottom: 1em;
+        @include mobile-type();
+      }
+
+      li::before {
+        display: none;
+      }
+    }
+
+    .content-top {
+      padding-top: 100px;
+    }
+
+    p {
+      @include mobile-type();
+    }
+
+    h1 {
+      @include mobile-heading();
+    }
+
+    h2,
+    p.blurb {
+      @include mobile-heading2();
+    }
+  }
 }
