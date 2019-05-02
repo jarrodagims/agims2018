@@ -52,6 +52,10 @@
   }
 
   @include media-breakpoint-down(lg) {
+
+    .list-inline {
+      flex-direction: column;
+    }
    
     .content-top {
       padding-top: 100px;

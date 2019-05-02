@@ -55,13 +55,15 @@ wp_head();
                         for your business.</p>
                 </div>
 
-                <div class="row checkmarks">
-                    <div class="col checkmark">
-                        <p>An opportunity to influence consumer decisions
-                            and preferences.</p>
-                    </div>
-                    <div class="col checkmark">
-                        <p>An opportunity to be found when your desired customer is searching for YOU.</p>
+                <div class="extra-padding">
+                    <div class="row checkmarks">
+                        <div class="col checkmark">
+                            <p>An opportunity to influence consumer decisions
+                                and preferences.</p>
+                        </div>
+                        <div class="col checkmark">
+                            <p>An opportunity to be found when your desired customer is searching for YOU.</p>
+                        </div>
                     </div>
                 </div>
 
@@ -535,7 +537,7 @@ wp_head();
                     <div class="ppc-banner">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col">
+                                <div class="col bg-ppc">
 
                                 </div>
 
@@ -576,14 +578,18 @@ wp_head();
                         <div class="row">
                             <div class="col">
 
-                                <img src="<?=IMGURL?>landing-sales/advertising-game.svg"
-                                    alt="It's time to up your Advertising Game" height="157">
+                                <div class="extra-padding">
+                                    <img src="<?=IMGURL?>landing-sales/advertising-game.svg"
+                                        alt="It's time to up your Advertising Game" height="157">
 
-                                <p>We’re not saying you shouldn’t have billboards, radio ads, TV ads - maybe even an ad
-                                    in a
-                                    magazine.<br class="d-none d-md-block"> But <span class="red">WE ARE</span> saying.
-                                    You
-                                    can’t stop there.</p>
+                                    <p>We’re not saying you shouldn’t have billboards, radio ads, TV ads - maybe even an
+                                        ad
+                                        in a
+                                        magazine.<br class="d-none d-md-block"> But <span class="red">WE ARE</span>
+                                        saying.
+                                        You
+                                        can’t stop there.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -591,25 +597,28 @@ wp_head();
 
                 <div class="landing-module-24">
                     <div class="holder">
-                        <p class="blurb">Just as <span class="brand">SEO</span>, online review management and search ads
-                            are
-                            essential to<br class="d-none d-md-block"> expand your
-                            reach and bring
-                            in
-                            more customers so are:
-                        </p>
+                        <div class="extra-padding">
+                            <p class="blurb">Just as <span class="brand">SEO</span>, online review management and search
+                                ads
+                                are
+                                essential to<br class="d-none d-md-block"> expand your
+                                reach and bring
+                                in
+                                more customers so are:
+                            </p>
 
-                        <ul class="list-inline">
-                            <li>
-                                Display Ads</li>
-                            <li>
-                                Remarketing Ads</li>
-                            <li>
-                                Social Media Ads</li>
-                            <li>
-                                YouTube Ads</li>
-                            </li>
-                        </ul>
+                            <ul class="list-inline">
+                                <li>
+                                    Display Ads</li>
+                                <li>
+                                    Remarketing Ads</li>
+                                <li>
+                                    Social Media Ads</li>
+                                <li>
+                                    YouTube Ads</li>
+                                </li>
+                            </ul>
+                        </div>
 
                         <div class="container-fluid">
                             <div class="row">
@@ -797,23 +806,24 @@ wp_head();
                     <div class="container">
                         <div class="row">
                             <div class="col  black">
-                                <img src="<?=IMGURL?>landing-sales/why-we-do-it.svg" alt="" height="100">
-                                <p class="blurb">
-                                    What if you could spend more time with <span class="yellow">your family?</span><br
-                                        class="d-md-block">
-                                    What if you had <span class="yellow">more time</span> your business?<br
-                                        class="d-md-block">
-                                    What if <span class="yellow">your business</span> could be found with a touch<br
-                                        class="d-md-block">
-                                    of a button?</p>
+                                <div class="extra-padding">
+                                    <img src="<?=IMGURL?>landing-sales/why-we-do-it.svg" alt="" height="100">
+                                    <p class="blurb">What if you could spend more time with <span class="yellow">your
+                                            family?</span><br class="d-md-block"> What if you had <span
+                                            class="yellow">more time</span> your business?<br class="d-md-block"> What
+                                        if <span class="yellow">your business</span> could be found with a touch<br
+                                            class="d-md-block"> of a button?</p>
+                                </div>
                             </div>
                         </div>
 
                     </div>
 
                     <div class="gray">
-                        <p>We focus on your marketing solutions so<br class="d-none d-md-block">
-                            that you can <span class="red">focus on what you love.</span></p>
+                        <div class="extra-padding">
+                            <p>We focus on your marketing solutions so<br class="d-none d-md-block">
+                                that you can <span class="red">focus on what you love.</span></p>
+                        </div>
                     </div>
                 </div>
 
@@ -832,7 +842,9 @@ wp_head();
                     <div class="container-fluid yellow">
                         <div class="row">
                             <div class="col">
-                                <img src="<?=IMGURL?>landing-sales/its-that-simple.svg" height="85" alt="">
+                                <div class="extra-padding">
+                                    <img src="<?=IMGURL?>landing-sales/its-that-simple.svg" height="85" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -840,14 +852,14 @@ wp_head();
 
                     <div class="extra-padding">
                         <p>Whether you just launched your ribbon cutting party or have been running your<br
-                                class="d-md-block">
+                                class="d-none d-md-block">
                             business for over 20 years. <span class="red">We tailor our services to each industry and
                                 each
                                 client.</span> </p>
                         <p class="blurb">
 
                             Digital Marketing <strong>has taken over,</strong> and frankly, if you’re not taking<br
-                                class="d-md-block">
+                                class="d-none d-md-block">
                             advantage of it... you probably won’t be in business much longer.</p>
 
                         <a href="">

@@ -11,7 +11,8 @@
   }
 
   @include media-breakpoint-down(lg) {
-   
+    
+    padding: 0 0;
 
     .content-top {
       padding-top: 100px;
@@ -19,7 +20,8 @@
 
     p {
       @include mobile-type();
-
+      margin-top: 0;
+      margin-bottom: 2em;
     }
 
     h1 {

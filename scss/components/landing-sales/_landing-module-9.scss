@@ -94,7 +94,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',endColorstr='#000000' , GradientType=1);
 
   @include media-breakpoint-down(lg) {
-    padding: 2em 15px 0;
+    padding: 2em 0 0;
 
     img {
       margin-bottom: 0;
@@ -105,7 +105,7 @@
     }
 
     .flush-box {
-      padding: 2em 0 0;
+      padding: 2em 15px 0;
 
       p {
       @include mobile-type();

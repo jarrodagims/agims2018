@@ -85,9 +85,6 @@
     display: flex;
      margin-top: 150px;
 
-     &.display-col {
-       margin-top: 0;
-     }
   }
 
   .social-tab {
@@ -190,7 +187,16 @@
       padding: 3em;
     }
 
-    &.sideways {
+    
+  }
+
+  @include media-breakpoint-up(lg) {
+
+    .display-col {
+       margin-top: 0;
+    }
+
+    .social-tab.sideways {
       flex-direction: row;
       display: flex;
       margin-top: 2em;
@@ -221,7 +227,56 @@
   }
 
   @include media-breakpoint-down(lg) {
-   
+    
+    padding: 2em 0;
+
+    .holder {
+      margin: 0 0;
+    }
+
+    p.blurb {
+      font-weight: 300;
+      line-height: 1;
+      margin-bottom: 1em;
+      font-size: 1em;
+    }
+
+    .social-tab {
+      h2 {
+        font-size: 2em;
+      }
+
+      p.blurb {
+        font-size: 1.5em;
+      }
+
+      .icon {
+        height: 90px;
+        width: 90px;
+        top: -50px;
+      }
+
+    }
+
+    .list-inline {
+      flex-direction: column;
+      margin-top: 1em;
+      margin-bottom: 0;
+
+      li {
+        margin-left: 0;
+        margin-bottom: 1em;
+        font-size: 1em;
+
+        &::before {
+          display: none;
+        }
+      }
+    }
+
+    .col {
+      margin-top: 100px;
+    }
 
     .content-top {
       padding-top: 100px;
@@ -234,6 +289,10 @@
 
     h1 {
       @include mobile-heading();
+    }
+
+    p.blurb {
+      line-height: 1.5;
     }
 
     h2, p.blurb {

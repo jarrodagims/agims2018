@@ -24,10 +24,17 @@
   }
 
   @include media-breakpoint-down(lg) {
-  
 
     .content-top {
       padding-top: 100px;
+    }
+
+    .extra-padding {
+      padding: 2em 15px;
+
+      img {
+        padding: 0 2em;
+      }
     }
 
     p {

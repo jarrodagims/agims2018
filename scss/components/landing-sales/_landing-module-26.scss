@@ -29,7 +29,10 @@
 
   @include media-breakpoint-down(lg) {
    
-
+    .gray p {
+      margin-bottom: 0;
+    }
+    
     .content-top {
       padding-top: 100px;
     }
@@ -45,6 +48,10 @@
 
     h2, p.blurb {
       @include mobile-heading2();
+    }
+
+    p.blurb {
+      margin-bottom: 2em;
     }
   }
 }

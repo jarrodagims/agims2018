@@ -30,8 +30,30 @@
       
     padding: 0 0;
 
+    .ppc-banner {
+      background: none;
+    }
+
+    .extra-padding {
+      padding: 0 0;
+    }
+
+    .bg-ppc {
+      background: url('../img/landing-sales/ppc-bg.jpg') 0 0 no-repeat;
+      background-size: cover;
+      min-height: 300px;
+    }
+
+    .landing-text-box {
+      padding: 0 0;
+    }
+
     .content-top {
       padding-top: 100px;
+    }
+
+    .row .col {
+      padding-bottom: 0;
     }
 
     p {

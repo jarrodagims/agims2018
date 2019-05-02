@@ -204,6 +204,10 @@
       }
     }
 
+    p.blurb {
+      line-height: 1.5;
+    }
+
     .extra-padding {
       padding-left: 15px;
       padding-right: 15px;
@@ -227,7 +231,8 @@
 
       .col {
         flex: 1;
-        padding: 2em 0;
+        padding: 2em 15px;
+        padding-bottom: 0;
       }
     }
 
