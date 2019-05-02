@@ -109,6 +109,37 @@ h1 span {
     margin: 0 auto;
   }
 }
+
+
+.content-bg {
+  @media screen and (max-width: 1500px) {
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+  }
+
+
+  @media screen and (max-width: 1500px) {
+    .container-fluid .row {
+      display: flex;
+      flex-direction: column;
+
+       
+      .col {
+        flex: 1;
+        background: none;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1500px) {
+    img {
+      display: none;
+    }
+  }
+}
+  
  
 
 @include media-breakpoint-down(lg) {
@@ -141,6 +172,8 @@ h1 span {
 
     .col {
       flex: 1;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
     }
   }
 

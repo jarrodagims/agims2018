@@ -22,13 +22,14 @@
       margin-top: -50px;
       z-index: 9999;
       height: calc(100% + 50px);
-
       background: url("../img/landing-sales/cutout-guy.png") right 0 no-repeat;
       background-size: auto 100%;
     }
 
     .col.blue {
       display: flex;
+      padding-left: 0;
+      padding-right: 30px;
 
       .cutout {
         flex: 1;
@@ -57,14 +58,18 @@
     line-height: 1.5;
   }
 
-  @include media-breakpoint-down(lg) { 
-
-  .col.blue {
-    background: $sherpa-secondary-color url("../img/landing-sales/cutout-guy.png") right 0 no-repeat;
+  @include media-breakpoint-down(lg) {
+    .col.blue {
+    background: $sherpa-secondary-color url("../img/landing-sales/cutout-guy.png") center 0 no-repeat;
     min-height: 300px;
     background-size: cover;
     
   }
+  }
+
+  @media screen and (max-width: 1301px) { 
+
+  
 
     .yellow .extra-padding {
       padding: 2em 15px;

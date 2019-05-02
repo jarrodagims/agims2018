@@ -1,14 +1,47 @@
 .landing-module-21 {
   background: #f1f1f1;
-  padding: 4em 2em 0;
+  padding: 4em 2em;
+  position: relative;
 
   .btn {
     margin-bottom: 0;
   }
 
+  
   .ppc-banner {
-    padding: 2em 30px;
-    background: url("../img/landing-sales/ppc-ads.jpg") 0 0 no-repeat;
+      background: $white;
+    }
+  
+
+  
+
+  @media screen and (min-width: 1400px) {
+    .ppc-banner {
+//     background: url("../img/landing-sales/ppc-ads.jpg") 0 0 no-repeat;
+//     background-size: cover;
+    position: relative;
+    background: $white;
+    overflow: hidden;
+    
+    @include dropshadow();
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 15%;
+      top: 20px;
+      background: url('../img/landing-sales/bg-finger.png') center 0 no-repeat;
+      width: 50vw;
+      height: 100%;
+      display: block;
+      z-index: 999;
+    }
+  }
+  }
+
+  .bg-ppc {
+    position: relative;
+    background: url('../img/landing-sales/bg-ppc-sales.jpg') 0 center no-repeat;
     background-size: cover;
   }
 
@@ -27,19 +60,15 @@
   }
 
   @include media-breakpoint-down(lg) {
-      
     padding: 0 0;
 
-    .ppc-banner {
-      background: none;
-    }
 
     .extra-padding {
-      padding: 0 0;
+      padding: 0 0 2em;
     }
 
     .bg-ppc {
-      background: url('../img/landing-sales/ppc-bg.jpg') 0 0 no-repeat;
+      background: url('../img/landing-sales/ppc-bg.jpg') center center no-repeat;
       background-size: cover;
       min-height: 300px;
     }

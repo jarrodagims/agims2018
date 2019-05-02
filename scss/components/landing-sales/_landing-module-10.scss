@@ -1,5 +1,32 @@
 .landing-module-10 {
-  background: url("../img/landing-sales/judged-online.png") 0 0 no-repeat;
-  background-size: cover;
-  height: 544px;
+  @media screen and (min-width: 1200px) {
+    .yellow, .blue {
+      background: none;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  
+
+  @include media-breakpoint-down(lg) {
+    background: none;
+
+    .col {
+      flex: 1;
+      min-height: 300px;
+    }
+
+    .yellow {
+      background: #F0E50D url('../img/landing-sales/bg-judged.jpg') center 100% no-repeat;
+      background-size: contain;
+    }
+
+    .blue {
+      display: flex;
+      justify-content: center;
+    }
+  }
 }

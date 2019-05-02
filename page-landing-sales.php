@@ -68,11 +68,13 @@ wp_head();
                 </div>
 
                 <div class="two-up">
+
+                    <img src="<?=IMGURL?>landing-sales/the-truth.jpg" alt="The Truth" />
                     <div class="container-fluid">
 
                         <div class="row">
 
-                            <div class="col bg-truth">
+                            <div class="col d-none d-xl-block bg-truth">
 
                             </div>
 
@@ -193,7 +195,7 @@ wp_head();
             <div class="landing-module-8">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-md-4 flex-col">
+                        <div class="col col-xl-4 flex-col">
                             <div>
                                 <h2>The Reality Is<br class="d-none d-md-block">
                                     People Do Research<br class="d-none d-md-block">
@@ -220,12 +222,14 @@ wp_head();
                         <div class="row">
                             <div class="col text-center">
 
-                                <img src="<?=IMGURL?>landing-sales/what-if.svg" alt="What if">
+                                <div class="extra-padding">
+                                    <img src="<?=IMGURL?>landing-sales/what-if.svg" alt="What if">
 
-                                <p>You're in an industry where people don't research - such as an: <br
-                                        class="d-none d-md-block"><span class="brand">HVAC company</span>, or
-                                    <span class="brand">emergency roof repair?</span>
-                                </p>
+                                    <p>You're in an industry where people don't research - such as an: <br
+                                            class="d-none d-md-block"><span class="brand">HVAC company</span>, or
+                                        <span class="brand">emergency roof repair?</span>
+                                    </p>
+                                </div>
                             </div>
 
                         </div>
@@ -256,7 +260,17 @@ wp_head();
             </div>
 
             <div class="landing-module-10">
+                <img class="d-none d-xl-block" src="<?=IMGURL?>landing-sales/judged-online.png" alt="">
+                <div class="container-fluid d-xl-none">
+                    <div class="row">
+                        <div class="col yellow">
+                        </div>
+                        <div class="col blue">
 
+                            <img class="d-xl-none" src="<?=IMGURL?>landing-sales/every-day.svg" alt="Every Day">
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="ribbon gray">
                 <p>The fact is&mdash; <strong>your customers are talking.</strong>
@@ -347,6 +361,10 @@ wp_head();
                                         out from your competition, you need a website<br class="d-none d-md-block">
                                         ASAP, let us repeat that&hellip;</p>
 
+
+                                </div>
+                                <div class="bottom">
+                                    <img class="img-asap" src="<?=IMGURL?>landing-sales/ASAP.svg" alt="ASAP">
                                     <p>But not just any website, a professional one - a<br class="d-none d-md-block">
                                         responsive,
                                         lead-capturing,
@@ -511,8 +529,9 @@ wp_head();
                                         before maps and other results?</p>
                                 </div>
                             </div>
-                            <div class="col bg-ipad">
-
+                            <div class="col">
+                                <div class="bg-ipad">
+                                </div>
                             </div>
                         </div>
 
@@ -595,7 +614,25 @@ wp_head();
                     </div>
                 </div>
 
+                <div class="landing-module-23">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="extra-padding">
+                                    <div class="responsive-video">
+                                        <iframe width="1050" height="591"
+                                            src="https://www.youtube.com/embed/6aFdEhEZQjE" frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="landing-module-24">
+                    <img class="d-xl-none" src="<?=IMGURL?>landing-sales/bg-social-sm.jpg" alt="">
                     <div class="holder">
                         <div class="extra-padding">
                             <p class="blurb">Just as <span class="brand">SEO</span>, online review management and search
@@ -774,9 +811,9 @@ wp_head();
                         </div>
                     </div>
                 </div>
+                <div class="holder">
+                    <div class="landing-module-25">
 
-                <div class="landing-module-25">
-                    <div class="holder">
                         <div class="container">
                             <div class="row">
                                 <div class="col">
@@ -800,25 +837,30 @@ wp_head();
                             </div>
                         </div>
                     </div>
+
+                    <div class="landing-module-26">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col  black">
+                                    <div class="extra-padding">
+                                        <img src="<?=IMGURL?>landing-sales/why-we-do-it.svg" alt="" height="100">
+                                        <p class="blurb">What if you could spend more time with <span
+                                                class="yellow">your
+                                                family?</span><br class="d-md-block"> What if you had <span
+                                                class="yellow">more time</span> your business?<br class="d-md-block">
+                                            What
+                                            if <span class="yellow">your business</span> could be found with a touch<br
+                                                class="d-md-block"> of a button?</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="landing-module-26">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col  black">
-                                <div class="extra-padding">
-                                    <img src="<?=IMGURL?>landing-sales/why-we-do-it.svg" alt="" height="100">
-                                    <p class="blurb">What if you could spend more time with <span class="yellow">your
-                                            family?</span><br class="d-md-block"> What if you had <span
-                                            class="yellow">more time</span> your business?<br class="d-md-block"> What
-                                        if <span class="yellow">your business</span> could be found with a touch<br
-                                            class="d-md-block"> of a button?</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
                     <div class="gray">
                         <div class="extra-padding">
                             <p>We focus on your marketing solutions so<br class="d-none d-md-block">
