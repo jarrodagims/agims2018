@@ -3,6 +3,18 @@
   background-size: cover;
   color: $white;
   padding: 169px 0 0;
+  font-size: 19px;
+
+  ul.check-list li {
+    margin-bottom: 1em;
+
+    &::before {
+      width: 20px;
+      height: 20px;
+      background-size: 20px;
+      margin-right: 1em;
+    }
+  }
 
   .holder {
     margin: 0 30px;
@@ -187,7 +199,7 @@
     color: $black;
 
     .extra-padding {
-      padding: 3em;
+      padding: 3em 5em;
     }
 
     

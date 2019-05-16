@@ -1,6 +1,22 @@
 .landing-module-22 {
   color: $black;
-  padding: 4em 0;
+  padding: 6em 0 4em;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 42px;
+    height: 117px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    z-index: 9999;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url("../img/landing-sales/svg-downarrows.png");
+  }
 
   .red {
     color: red;
@@ -13,6 +29,10 @@
   @include media-breakpoint-down(lg) {
     
     padding: 0 0;
+
+    &::after {
+      display: none;
+    }
 
     .content-top {
       padding-top: 100px;

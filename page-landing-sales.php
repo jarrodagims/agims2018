@@ -98,7 +98,8 @@ wp_head();
                                         for you, don’t you want to make it<br class="d-none d-md-block">
                                         easy to be found.</p>
 
-                                    <a href=""><button class="btn btn-primary">Yes, I Want to Be Found</button></a>
+                                    <a href="#contact-us"><button class="btn btn-primary">Yes, I Want to Be
+                                            Found</button></a>
                                 </div>
                             </div>
                         </div>
@@ -187,7 +188,7 @@ wp_head();
                         class="d-none d-md-block">
                     You still have the opportunity to be found by potential customers.</p>
 
-                <a href="">
+                <a href="#contact-us">
                     <button class="btn btn-primary">Get My Business Found!</button>
                 </a>
             </div>
@@ -245,7 +246,7 @@ wp_head();
                                         they call based on the review<br class="d-none d-md-block">
                                         count and star rating they have.</p>
 
-                                    <a href="">
+                                    <a href="#contact-us">
                                         <button class="btn btn-primary">I Am A Service Business! Help!</button>
                                     </a>
                                 </div>
@@ -284,7 +285,7 @@ wp_head();
                 <p><strong>The goal is to <em>make sure</em> they’re saying good things.</strong>
                     One bad review can bring down your average substantially.</p>
 
-                <a href="">
+                <a href="#contact-us">
                     <button class="btn btn-primary">
                         Start Managing Your Online Reputation
                     </button>
@@ -416,7 +417,7 @@ wp_head();
                                     <p>SEO is relatively cheap and a long term strategy.
                                         Plus, it aids customer trust and credibility.</p>
 
-                                    <a href="">
+                                    <a href="#contact-us">
                                         <button class="btn btn-primary">
                                             Start Reaching More Customers Today!
                                         </button>
@@ -514,24 +515,27 @@ wp_head();
 
 
                 <div class="landing-module-20">
+
+                    <div class="bg-ipad">
+                    </div>
+
                     <div class="container">
                         <div class="row  gray">
                             <div class="col">
                                 <div class="extra-padding">
                                     <h2>
-                                        Have you ever
+                                        Have you ever<br class="d-none d-md-block">
                                         <strong>Googled</strong>
                                         something like
                                     </h2>
-                                    <p>“air conditioning company” or “roof repair”</p>
+                                    <p><strong>“air conditioning company” or “roof repair”</strong></p>
 
                                     <p>and had ads appear at the top of the page, right
                                         before maps and other results?</p>
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="bg-ipad">
-                                </div>
+
                             </div>
                         </div>
 
@@ -545,7 +549,7 @@ wp_head();
                                         your products and services directly to your customers.</p>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col ">
 
                             </div>
                         </div>
@@ -579,7 +583,7 @@ wp_head();
                                             <h2 class="blurb">Essentially, <span class="red">you pay for results!</span>
                                             </h2>
 
-                                            <a href="">
+                                            <a href="#contact-us">
                                                 <button class="btn btn-primary">
                                                     I Want More Leads Now
                                                 </button>
@@ -619,7 +623,7 @@ wp_head();
                         <div class="row">
                             <div class="col">
                                 <div class="extra-padding">
-                                    <div class="responsive-video">
+                                    <div class="embed-responsive embed-responsive-16by9">
                                         <iframe width="1050" height="591"
                                             src="https://www.youtube.com/embed/6aFdEhEZQjE" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -774,7 +778,7 @@ wp_head();
 
                                             <p>
                                                 How can someone say no when they’re constantly reminded how much they
-                                                neeeeeeed
+                                                <strong>neeeeeeed</strong>
                                                 that
                                                 teeth whitening service.
                                                 Or that new kitchen remodel?
@@ -904,7 +908,7 @@ wp_head();
                                 class="d-none d-md-block">
                             advantage of it... you probably won’t be in business much longer.</p>
 
-                        <a href="">
+                        <a href="#contact-us">
                             <button class="btn btn-primary">
                                 I’m Ready to Start, Send Me Some Pricing!
                             </button>
@@ -944,8 +948,9 @@ wp_head();
             </div>
         </div>
     </section>
-
+    <div id="contact-us"></div>
     <?php get_footer();?>
+
     <?php
 /**
  *

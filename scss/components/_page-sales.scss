@@ -45,8 +45,6 @@
 
   @media screen and (min-width: 1200px) {
     .content-top {
-      margin-left: 90px;
-      margin-right: 90px;
       margin-bottom: 0;
       position: relative;
     }
@@ -183,7 +181,7 @@
 
   @media screen and (max-width: 480px) {
     .content-top {
-      padding-top: 150px;
+      padding-top: 200px;
     }
 
     .warning-sign {
@@ -195,11 +193,19 @@
     .content-top {
       padding-top: 200px;
     }
+
+    #header-logo {
+      margin-top: -500px;
+    }
   }
 
   @media screen and (min-width: 701px) and (max-width: 992px) {
     .content-top {
       padding-top: 300px;
+    }
+
+    #header-logo {
+      margin-top: -400px;
     }
   }
 
@@ -210,6 +216,14 @@
   }
 
   @include media-breakpoint-down(lg) {
+    .header {
+      top: 50px;
+    }
+
+    #header-logo {
+      margin-left: 15px;
+    }
+
     .btn {
       white-space: inherit;
     }
@@ -270,4 +284,12 @@
       @include mobile-heading2();
     }
   }
+}
+
+.map-img {
+  width: 100%;
+}
+
+.wpcf7-form-control-wrap {
+  position: relative;
 }

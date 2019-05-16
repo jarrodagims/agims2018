@@ -40,10 +40,14 @@
     margin-bottom: 0;
   }
 
-  @include media-breakpoint-down(lg) {
+  @include media-breakpoint-down(sm) {
     background: #000 url("../img/landing-sales/bg-warning-mobile.jpg") 0 0
       no-repeat;
     background-size: cover;
+  }
+
+  @include media-breakpoint-down(lg) {
+    
 
     .content-top {
       padding-top: 100px;
