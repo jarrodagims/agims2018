@@ -11,6 +11,8 @@
 
   .two-up {
     margin-top: 0;
+    @include dropshadow();
+
 
     &::before {
       display: none;
@@ -56,6 +58,10 @@
     font-weight: 500;
     color: #000;
     line-height: 1.5;
+  }
+
+  .ribbon.ribbon-black p {
+    font-size: 43px;
   }
 
   @include media-breakpoint-down(lg) {

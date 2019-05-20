@@ -1,5 +1,4 @@
 .landing-module-13 {
-
   .bottom {
     background: $white;
     padding: 2em 15px;
@@ -7,20 +6,20 @@
     margin-right: -15px;
     position: relative;
   }
- 
+
   .img-asap {
-      position: absolute;
-      z-index: 9999;
-      width: 238px;
-      height: 399px;
-      top: -260px;
-      right: 20px;
-    }
+    position: absolute;
+    z-index: 9999;
+    width: 238px;
+    height: 399px;
+    top: -260px;
+    right: 20px;
+  }
 
   h2 {
     font-weight: 600;
-    margin-bottom: .5em;
-  } 
+    margin-bottom: 0.5em;
+  }
 
   .blue {
     background: transparent;
@@ -65,7 +64,6 @@
 
   p {
     font-size: 20px;
-    margin-bottom: 2em;
 
     .red {
       color: red;
@@ -76,15 +74,11 @@
     font-size: 33px;
     margin-bottom: 0;
     line-height: 1.5;
-    margin-top: .5em;
+    margin-top: 0.5em;
   }
 
   .container {
     max-width: 1530px;
-
-    &.dropshadow {
-      @include dropshadow();
-    }
   }
 
   .ribbon.black {
@@ -93,15 +87,15 @@
     padding-bottom: 3em;
     text-align: center;
 
-
     p {
       font-size: 18px;
       font-family: "roboto", sans-serif;
     }
- }
-@include media-breakpoint-down(lg) {  
-
-  .dark-gray .extra-padding, .gray .extra-padding {
+  }
+}
+@include media-breakpoint-down(lg) {
+  .dark-gray .extra-padding,
+  .gray .extra-padding {
     padding: 0 15px;
   }
 
@@ -113,37 +107,32 @@
     height: 100px;
   }
 
- 
+  .bg-1 {
+    order: -1;
+  }
 
-   .bg-1 {
-     order: -1;
-   }
+  .bg-1,
+  .bg-2 {
+    min-height: 300px;
+  }
 
-   .bg-1, .bg-2 {
-     min-height: 300px;
-   }
-
-   .ribbon.black {
-     padding: 2em 30px;
-     p {
-       font-size: 1em;
-     }
-   }
-
-
+  .ribbon.black {
+    padding: 2em 30px;
     p {
-      @include mobile-type();
+      font-size: 1em;
     }
+  }
 
-    h1 {
-      @include mobile-heading();
-    }
+  p {
+    @include mobile-type();
+  }
 
-    .dark-gray h2, p.blurb {
-      @include mobile-heading2();
-    }
+  h1 {
+    @include mobile-heading();
+  }
 
-      
-   }
+  .dark-gray h2,
+  p.blurb {
+    @include mobile-heading2();
+  }
 }
- 

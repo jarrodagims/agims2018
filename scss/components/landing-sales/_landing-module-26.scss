@@ -57,6 +57,7 @@
 
     }
 
+
     h1 {
       @include mobile-heading();
     }
@@ -66,7 +67,7 @@
     }
 
     p.blurb {
-      margin-bottom: 2em;
+      margin-bottom: 0;
     }
   }
 }

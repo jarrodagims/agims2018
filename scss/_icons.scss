@@ -197,3 +197,9 @@
     background: url("../img/landing-sales/icon-display.svg");
   }
 }
+
+@mixin icon-swirly() {
+  &::before {
+    background: url("../img/landing-sales/swirly.svg") 0 0 no-repeat;
+  }
+}

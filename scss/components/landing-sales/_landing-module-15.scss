@@ -1,5 +1,5 @@
 .landing-module-15 {
-  padding: 4em 0;
+  padding: 7em 0;
 
   img {
     margin-bottom: 2em;
@@ -8,13 +8,19 @@
   p {
      font-weight: 500;
      color: $black;
+     margin-bottom: 0;
   }
 
   @include media-breakpoint-down(lg) {  
     padding: 2em 15px;
+
+    p {
+      margin: 2em 0 0;
+    }
   
       img {
         margin-bottom: 0;
+        height: 100px;
       }
   }
 }

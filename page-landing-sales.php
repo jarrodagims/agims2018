@@ -84,7 +84,7 @@ wp_head();
                                 <div class="extra-padding">
                                     <p class="blurb">With billions of searches being conducted<br
                                             class="d-none d-md-block">
-                                        each day on sites like Google, Yahoo, and Bing,
+                                        each day on sites like Google, Yahoo, and Bing,<br class="d-none d-md-block">
                                         you want to ensure your business<br class="d-none d-md-block">
                                         comes out on top.</p>
 
@@ -168,6 +168,8 @@ wp_head();
 
                     </div>
                 </div>
+                <img src="<?=IMGURL?>landing-sales/social-media.png">
+                <img src="<?=IMGURL?>landing-sales/social-media-icons.png">
                 <div class="banner">
                     <img src="<?=IMGURL?>landing-sales/touch-points.png"
                         alt="The goal is to be present. Create touch points... 5-7 on average">
@@ -354,7 +356,7 @@ wp_head();
                 </div>
 
                 <div class="four-up">
-                    <div class="container">
+                    <div class="container dropshadow">
 
                         <div class="row">
                             <div class="col dark-gray">
@@ -385,7 +387,7 @@ wp_head();
                             <div class="col gray">
                                 <div class="extra-padding">
                                     <h2>Again with the SEO?<br class="d-none d-md-block">
-                                        Yup! Let those three little letters sink in.</h2>
+                                        Yup! Let those three little letters<br class="d-none d-md-block"> sink in.</h2>
                                     <p>SEO is your primary source of website traffic.<br class="d-none d-md-block">
                                         It produces organic results and authentic visitors.</p>
 
@@ -571,7 +573,7 @@ wp_head();
                                     <div class="landing-text-box">
                                         <div class="extra-padding">
                                             <h2>These are called search ads, or<br class="d-none d-md-block">
-                                                Pay-Per-Click (PPC) Ads.</h2>
+                                                <span class="blue">Pay-Per-Click (PPC)</span> Ads.</h2>
 
                                             <p>
                                                 Pay-per-click advertising works by taking you to the top of search
@@ -735,10 +737,8 @@ wp_head();
 
                                             <ul class="check-list">
                                                 <li>
-                                                    After Facebook and Google, YouTube<br class="d-none d-md-block">
-                                                    is the <strong>
-                                                        3rd most visited website in<br class="d-none d-md-block">
-                                                        the WORLD!
+                                                    After Facebook and Google, YouTube is the <strong>
+                                                        3rd most visited website in the WORLD!
                                                     </strong> </li>
 
                                                 <li>Almost 5 billion videos are watched on
@@ -835,9 +835,10 @@ wp_head();
                             <div class="row">
                                 <div class="col">
                                     <h2>When It Comes to Digital - You Are in Control</h2>
-                                    <p>Regardless of the type of digital advertising you use, you can be as specific as
-                                        you
-                                        want.</p>
+                                    <p><strong>Regardless of the type of digital advertising you use, you can be as
+                                            specific as
+                                            you
+                                            want.</strong></p>
 
                                     <ol class="list-inline">
                                         <li class="number1">Target users by their<br class="d-none d-md-block">

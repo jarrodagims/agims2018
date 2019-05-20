@@ -41,6 +41,10 @@
     @include montserrat();
     font-weight: 600;
     font-size: 30px;
+
+    strong {
+      font-weight: 700;
+    }
   }
 
   @include media-breakpoint-down(sm) {

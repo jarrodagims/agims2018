@@ -24,11 +24,17 @@
 
   p {
     margin-top: 2em;
+    font-weight: 500;
   }
 
   @include media-breakpoint-down(lg) {
     
     padding: 0 0;
+
+    img {
+      height: 100px;
+      margin-bottom: 2em;
+    }
 
     &::after {
       display: none;
@@ -41,7 +47,7 @@
     p {
       @include mobile-type();
       margin-top: 0;
-      margin-bottom: 2em;
+      margin-bottom: 0;
     }
 
     h1 {

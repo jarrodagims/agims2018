@@ -43,17 +43,25 @@
     }
   }
 
+  .yellow {
+    padding: 6.5em 0;
+  }
+
   @include media-breakpoint-down(lg) {  
+
 
     .yellow {
       padding: 2em 30px;
+    }
+
+    img {
+      height: 100px;
     }
 
 
     .map {
        background: url(../img/landing-sales/bg-map.jpg) 0 100% no-repeat;
        background-size: cover;
-       height: 200px;
 
        &::before {
          display: none !important;

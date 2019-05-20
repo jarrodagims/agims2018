@@ -106,7 +106,7 @@
   }
 
   .social-tab {
-
+    flex: 1;
     @include dropshadow();
 
     p.blurb {
@@ -234,6 +234,7 @@
       position: relative;
       justify-content: center;
       align-items: center;
+      flex: 0 auto;
 
       .extra-padding {
         padding: 0 5em;
