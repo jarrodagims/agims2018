@@ -6,25 +6,17 @@
 
   .dark-gray .extra-padding,
   .gray .extra-padding {
-    padding: 5em 0;
+    padding: 4em 0;
   }
 
-  
+  h2 {
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
 
-//   &::before {
-//     content: "";
-//     display: block;
-//     position: absolute;
-//     right: 0;
-//     bottom: 0;
-//     background: url("../img/landing-sales/bg-ipad.png");
-//     background-repeat: no-repeat;
-//     background-position: 0 0;
-//     background-size: 100%;
-//     width: 50vw;
-//     height: 100%;
-//     z-index: 999;
-//   }
+  p {
+    margin-bottom: 1em;
+  }
 
   .col.bg-ipad {
     position: relative;
@@ -46,8 +38,13 @@
     background: transparent;
     color: $white;
 
+    p {
+      color: $white;
+    }
+
     h2 {
       color: #9fa3a4;
+      margin-bottom: .5em;
 
       span {
         color: $white;

@@ -17,6 +17,9 @@
     p {
       font-size: 33px;
       line-height: 1.5;
+      margin-bottom: 0;
+      @include montserrat();
+      font-weight: 600;
     }
 
     .extra-padding {

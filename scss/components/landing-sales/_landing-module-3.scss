@@ -38,6 +38,9 @@
 
   p {
     margin-bottom: 0;
+    @include montserrat();
+    font-weight: 600;
+    font-size: 30px;
   }
 
   @include media-breakpoint-down(sm) {

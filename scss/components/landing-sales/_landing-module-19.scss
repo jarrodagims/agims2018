@@ -2,6 +2,8 @@
   .ribbon {
     font-size: 33px;
     padding: .5em 0;
+    @include montserrat();
+    font-weight: 600;
   }
 
   @include media-breakpoint-down(lg) {  

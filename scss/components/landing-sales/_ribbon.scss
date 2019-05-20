@@ -8,6 +8,8 @@
     color: $white;
     margin-bottom: 0;
     font-size: 33px;
+    font-weight: 500;
+    line-height: 1.5;
     @include montserrat();
   }
 
@@ -21,7 +23,7 @@
 
     strong {
       color: #ff0000;
-      font-weight: 500;
+      font-weight: 600;
     }
   }
 

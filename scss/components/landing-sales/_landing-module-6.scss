@@ -1,12 +1,24 @@
 .landing-module-6 {
-  padding: 4em 0;
+  padding: 2.5em 0;
+
+  h2 {
+    font-weight: 600;
+    font-size: 41px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+    .blue {
+      background: transparent;
+      color: $sherpa-secondary-color;
+    }
+  }
+
+ 
 
   p.blurb {
     font-size: 26px;
     color: #000;
-    font-weight: 600;
-    @include montserrat();
-    margin-bottom: 1.5em;
+    font-weight: 500;
   }
 
   .list-inline {
@@ -14,7 +26,7 @@
     display: flex;
     justify-content: center;
     color: $black;
-    margin-top: 2em;
+    margin-top: 4.5em;
     margin-bottom: 2em;
 
     li {
@@ -31,7 +43,14 @@
   }
 
   ul.checks {
-    margin-bottom: 2em;
+    margin-top: 2.5em;
+    margin-bottom: 4em;
+  }
+
+  .banner {
+    background: url('../img/landing-sales/bg-icons.jpg') 0 0 no-repeat;
+    background-size: contain;
+    padding-top: 200px;
   }
 
   @media screen and (max-width: 1400px) {

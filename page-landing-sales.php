@@ -58,11 +58,13 @@ wp_head();
                 <div class="extra-padding">
                     <div class="row checkmarks">
                         <div class="col checkmark">
-                            <p>An opportunity to influence consumer decisions
-                                and preferences.</p>
+                            <p>An opportunity to influence<br class="d-none d-md-block"> consumer decisions
+                                and<br class="d-none d-md-block"> preferences.</p>
                         </div>
                         <div class="col checkmark">
-                            <p>An opportunity to be found when your desired customer is searching for YOU.</p>
+                            <p>An opportunity to be found<br class="d-none d-md-block"> when your desired customer<br
+                                    class="d-none d-md-block"> is
+                                searching for YOU.</p>
                         </div>
                     </div>
                 </div>
@@ -90,8 +92,9 @@ wp_head();
                                             class="d-none d-md-block">
                                         So much so that 75% of people won’t scroll past the first page.</p>
 
-                                    <p class="blurb second">That’s 75% of people who go to your
-                                        competitors and 75% of people whose
+                                    <p class="blurb second">That’s 75% of people who go to your<br
+                                            class="d-none d-md-block">
+                                        competitors and 75% of people whose<br class="d-none d-md-block">
                                         business you <span class="brand">lose out on</span>.</p>
 
                                     <p>Your customers are searching<br class="d-none d-md-block">
@@ -110,7 +113,7 @@ wp_head();
                     <div class="extra-padding">
                         <p>And just as people want immediate results,<br class="d-none d-md-block">
                             they want immediate access to those results...<br class="d-none d-md-block">
-                            at their fingertips.</p>
+                            <strong>at their fingertips</strong>.</p>
                     </div>
                 </div>
 
@@ -140,7 +143,7 @@ wp_head();
 
             <div class="landing-module-5 users">
                 <div class="extra-padding">
-                    <p>Including for ourselves. But you, as a business owner...<br />
+                    <p>Including for ourselves. But you, as a <strong>business owner</strong>...<br />
                         can take advantage of this</p>
 
                     <img src="<?=IMGURL?>landing-sales/mobile-users.png" alt="" class="mobile-users">
@@ -179,14 +182,13 @@ wp_head();
                     <li><span>Video marketing</span></li>
                 </ul>
 
-                <h2>Every touch point impacts the Customer Buying Experience!</h2>
+                <h2>Every touch point impacts the <span class="blue">Customer Buying Experience!</span></h2>
 
                 <p>The more times a customer comes across your brand, the more chances you<br class="d-none d-md-block">
                     have to convince the customer to visit your store or shop your services or products.</p>
 
-                <p class="blurb">If you’re not already creating these touchpoints, not to worry.<br
-                        class="d-none d-md-block">
-                    You still have the opportunity to be found by potential customers.</p>
+                <p><strong>If you’re not already creating these touchpoints, not to worry.<br class="d-none d-md-block">
+                        You still have the opportunity to be found by potential customers.</strong></p>
 
                 <a href="#contact-us">
                     <button class="btn btn-primary">Get My Business Found!</button>
@@ -202,9 +204,10 @@ wp_head();
                                     People Do Research<br class="d-none d-md-block">
                                     Before They Buy</h2>
 
-                                <p>82% of smartphone users consult their phones on purchases they are about to make
+                                <p>82% of smartphone users consult their<br class="d-none d-md-block"> phones on
+                                    purchases they are about to<br class="d-none d-md-block"> make
                                     in-store
-                                    and 45% read reviews before making a purchase.
+                                    and 45% read reviews before<br class="d-none d-md-block"> making a purchase.
                                     <br />
                                     <br />
                                     -The Robo Economy</p>
@@ -282,7 +285,7 @@ wp_head();
                         class="d-md-block">
                     on Google and Facebook.</p>
 
-                <p><strong>The goal is to <em>make sure</em> they’re saying good things.</strong>
+                <p>The goal is to <em>make sure</em> <strong>they’re saying good things.</strong>
                     One bad review can bring down your average substantially.</p>
 
                 <a href="#contact-us">
@@ -414,7 +417,7 @@ wp_head();
                                 <div class="extra-padding">
                                     <h2>The Perks!</h2>
 
-                                    <p>SEO is relatively cheap and a long term strategy.
+                                    <p>SEO is relatively cheap and a long term strategy.<br class="d-none d-md-block">
                                         Plus, it aids customer trust and credibility.</p>
 
                                     <a href="#contact-us">
@@ -438,7 +441,7 @@ wp_head();
                                     class="d-none d-md-block">
                                 you also
                                 want
-                                more business NOW.
+                                more business <span class="red">NOW</span>.
                             </p>
                         </div>
                     </div>
@@ -493,9 +496,9 @@ wp_head();
     sees your ads.">
 
 
-                                        <p class="blurb bottom-blurb">You are in <strong>control</strong>
-                                            opportunities<br class="d-md-block">
-                                            are <strong>endless.</strong> </p>
+                                        <p class="blurb bottom-blurb">You are in <strong>control</strong> &amp; the
+                                            <strong>opportunities</strong><br class="d-md-block">
+                                            are endless.</p>
                                     </div>
                                 </div>
                             </div>
@@ -530,7 +533,7 @@ wp_head();
                                     </h2>
                                     <p><strong>“air conditioning company” or “roof repair”</strong></p>
 
-                                    <p>and had ads appear at the top of the page, right
+                                    <p>and had ads appear at the top of the page, right<br class="d-none d-md-block">
                                         before maps and other results?</p>
                                 </div>
                             </div>
@@ -624,8 +627,8 @@ wp_head();
                             <div class="col">
                                 <div class="extra-padding">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe width="1050" height="591"
-                                            src="https://www.youtube.com/embed/6aFdEhEZQjE" frameborder="0"
+                                        <iframe width="525" height="296" src="https://www.youtube.com/embed/6aFdEhEZQjE"
+                                            frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen></iframe>
                                     </div>
@@ -678,30 +681,35 @@ wp_head();
                                             </p>
 
                                             <p>
-                                                Did you know there are 1.1 billion daily
+                                                Did you know there are 1.1 billion daily<br class="d-none d-md-block">
                                                 users on Facebook alone? WHAT?!
                                             </p>
 
                                             <p>
-                                                Yeah - that number is ridiculous, and we know not all of them are
+                                                Yeah - that number is ridiculous, and we know not<br
+                                                    class="d-none d-md-block"> all of them are
                                                 looking
                                                 for
                                                 your
-                                                business specifically. Probably not even 1/10th of them. However - it
-                                                does
-                                                mean
-                                                the
-                                                people you ARE trying to reach, can be found there.
+                                                business<br class="d-none d-md-block"> specifically. Probably not even
+                                                1/10th of them. <br class="d-none d-md-block">However - <strong>it
+                                                    does
+                                                    mean
+                                                    the
+                                                    people you ARE<br class="d-none d-md-block"> trying to reach, <span
+                                                        class="blue">can be found there.</span></strong>
                                             </p>
 
                                             <p>
-                                                Not to mention all other social media platforms like instagram swarming
+                                                Not to mention all other social media platforms<br
+                                                    class="d-none d-md-block"> like instagram swarming
                                                 with
                                                 millions of
-                                                potential customers you can reach as long as you’re talking to them, and
+                                                potential<br class="d-none d-md-block"> customers you can reach as long
+                                                as you’re<br class="d-none d-md-block"> talking to them, and
                                                 offering
                                                 them
-                                                things they cannot refuse.
+                                                things they<br class="d-none d-md-block"> cannot refuse.
                                             </p>
                                         </div>
                                     </div>
@@ -717,18 +725,19 @@ wp_head();
                                             YOUTUBE
                                         </h2>
                                         <div class="extra-padding">
-                                            <p>Imagine your brand, visible to billions of people browsing videos related
+                                            <p>Imagine your brand, visible to billions of<br class="d-none d-md-block">
+                                                people browsing videos related
                                                 to
-                                                your
-                                                products, <span class="blue"><strong>just imagine
-                                                        that</strong></span>...
+                                                your<br class="d-none d-md-block">
+                                                products, <strong><span class="blue">just imagine
+                                                        that</span></strong>...
                                             </p>
 
                                             <ul class="check-list">
                                                 <li>
-                                                    After Facebook and Google, YouTube
+                                                    After Facebook and Google, YouTube<br class="d-none d-md-block">
                                                     is the <strong>
-                                                        3rd most visited website in
+                                                        3rd most visited website in<br class="d-none d-md-block">
                                                         the WORLD!
                                                     </strong> </li>
 
@@ -757,11 +766,12 @@ wp_head();
 
                                         <div class="extra-padding">
                                             <p>
-                                                Ever check out a website, or a product on a site and then all of a
+                                                Ever check out a website, or a product on a site<br
+                                                    class="d-none d-md-block"> and then all of a
                                                 sudden an
                                                 ad
                                                 for
-                                                that
+                                                that<br class="d-none d-md-block">
                                                 company or product <strong>is EVERYWHERE?!</strong>
                                             </p>
 
@@ -772,15 +782,17 @@ wp_head();
 
 
                                             <p>
-                                                And we know it can be annoying,
-                                                but we also know that it does help to bring in more business.
+                                                And we know it can be annoying,<br class="d-none d-md-block">
+                                                but we also know that it does help to bring in<br
+                                                    class="d-none d-md-block"> more business.
                                             </p>
 
                                             <p>
-                                                How can someone say no when they’re constantly reminded how much they
+                                                How can someone say no when they’re<br class="d-none d-md-block">
+                                                constantly reminded how much they<br class="d-none d-md-block">
                                                 <strong>neeeeeeed</strong>
                                                 that
-                                                teeth whitening service.
+                                                teeth whitening service.<br class="d-none d-md-block">
                                                 Or that new kitchen remodel?
                                             </p>
 
@@ -807,7 +819,8 @@ wp_head();
                                                     class="d-md-block">
                                                 across. These can show on relevant website across the web, related to<br
                                                     class="d-md-block">
-                                                your business. Branding. Get your name out there already!</p>
+                                                your business. <strong><span class="blue">Branding.</span></strong> Get
+                                                your name out there already!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -827,12 +840,16 @@ wp_head();
                                         want.</p>
 
                                     <ol class="list-inline">
-                                        <li class="number1">Target users by their Location, Age, Interest, and Online
+                                        <li class="number1">Target users by their<br class="d-none d-md-block">
+                                            Location, Age, Interest,<br class="d-none d-md-block"> and Online
                                             Behavior.</li>
-                                        <li class="number2">Choose the dates and times you'd like your ads displayed.
+                                        <li class="number2">Choose the dates and<br class="d-none d-md-block"> times
+                                            you'd like your<br class="d-none d-md-block"> ads displayed.
                                         </li>
-                                        <li class="number3">Most importantly, communicate more efficiently.</li>
-                                        <li class="number4">Alter your ad text any time you want and relay your message
+                                        <li class="number3">Most importantly,<br class="d-none d-md-block"> communicate
+                                            more<br class="d-none d-md-block"> efficiently.</li>
+                                        <li class="number4">Alter your ad text any time<br class="d-none d-md-block">
+                                            you want and relay your<br class="d-none d-md-block"> message
                                             at
                                             any given time.
                                         </li>
