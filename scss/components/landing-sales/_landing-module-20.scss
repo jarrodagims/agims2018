@@ -12,10 +12,16 @@
   h2 {
     line-height: 1.5;
     margin-bottom: 0;
+    font-size: 28px;
   }
 
   p {
     margin-bottom: 1em;
+    font-size: 18px;
+
+    strong {
+      font-size: 18px;
+    }
   }
 
   .col.bg-ipad {
