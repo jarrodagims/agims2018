@@ -92,8 +92,9 @@ h1 span {
 }
 
 .bg-truth {
-  background: url("../img/landing-sales/the-truth.jpg") right 0 no-repeat;
+  background: url("../img/landing-sales/bg-truth.jpg") center 0 no-repeat;
   background-size: cover;
+
 } 
 
 
@@ -110,6 +111,19 @@ h1 span {
   }
 }
 
+.bg-truth {
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url('../img/landing-sales/truth-people.png') 100% 100% no-repeat;
+    background-size: contain;
+  }
+}
 
 .content-bg {
   @media screen and (max-width: 1500px) {
@@ -120,7 +134,7 @@ h1 span {
   }
 
 
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width: 1200px) {
     .container-fluid .row {
       display: flex;
       flex-direction: column;
@@ -129,17 +143,30 @@ h1 span {
       .col {
         flex: 1;
         background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
   }
 
-  @media screen and (min-width: 1500px) {
+  @media screen and (min-width: 1200px) {
+
+    
+
     img {
-      display: none;
+      position: absolute;
+      right: 0;
+      top: -100px;
+      width: 572px;
+      height: auto;
+      left: 50%;
+      transform: translateX(-50%);
     }
-  }
+  } 
 }
-  
+
+
  
 
 @include media-breakpoint-down(lg) {
@@ -163,6 +190,10 @@ h1 span {
   .extra-padding {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .checkmark p {
+    font-size: 15px;
   }
 
   .checkmarks {

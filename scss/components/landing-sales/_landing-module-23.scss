@@ -7,4 +7,10 @@
     max-width: 50%;
     margin: 0 auto;
   }
+
+  @include media-breakpoint-down(lg) {
+    .embed-responsive {
+      max-width: 100%;
+    }
+  }
 }

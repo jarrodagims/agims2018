@@ -71,34 +71,34 @@ wp_head();
 
                 <div class="two-up">
 
-                    <img src="<?=IMGURL?>landing-sales/the-truth.jpg" alt="The Truth" />
+                    <img src="<?=IMGURL?>landing-sales/the-truth.jpg" class="d-xl-none" alt="The Truth" />
                     <div class="container-fluid">
 
                         <div class="row">
 
                             <div class="col d-none d-xl-block bg-truth">
-
+                                <img src="<?=IMGURL?>landing-sales/the-truth.svg" alt="The Truth" />
                             </div>
 
                             <div class="col gray">
                                 <div class="extra-padding">
                                     <p class="blurb">With billions of searches being conducted<br
-                                            class="d-none d-md-block">
-                                        each day on sites like Google, Yahoo, and Bing,<br class="d-none d-md-block">
-                                        you want to ensure your business<br class="d-none d-md-block">
+                                            class="d-none d-lg-block">
+                                        each day on sites like Google, Yahoo, and Bing,<br class="d-none d-lg-block">
+                                        you want to ensure your business<br class="d-none d-lg-block">
                                         comes out on top.</p>
 
                                     <p>People searching for your services want <strong>immediate results</strong>.<br
-                                            class="d-none d-md-block">
+                                            class="d-none d-lg-block">
                                         So much so that 75% of people won’t scroll past the first page.</p>
 
                                     <p class="blurb second">That’s 75% of people who go to your<br
-                                            class="d-none d-md-block">
-                                        competitors and 75% of people whose<br class="d-none d-md-block">
+                                            class="d-none d-lg-block">
+                                        competitors and 75% of people whose<br class="d-none d-lg-block">
                                         business you <span class="brand">lose out on</span>.</p>
 
-                                    <p>Your customers are searching<br class="d-none d-md-block">
-                                        for you, don’t you want to make it<br class="d-none d-md-block">
+                                    <p>Your customers are searching<br class="d-none d-lg-block">
+                                        for you, don’t you want to make it<br class="d-none d-lg-block">
                                         easy to be found.</p>
 
                                     <a href="#contact-us"><button class="btn btn-primary">Yes, I Want to Be
@@ -168,8 +168,12 @@ wp_head();
 
                     </div>
                 </div>
-                <img src="<?=IMGURL?>landing-sales/social-media.png">
-                <img src="<?=IMGURL?>landing-sales/social-media-icons.png">
+                <div class="yellow">
+                    <img src="<?=IMGURL?>landing-sales/social-media.png">
+                </div>
+                <div class="blue">
+                    <img src="<?=IMGURL?>landing-sales/social-media-icons.png">
+                </div>
                 <div class="banner">
                     <img src="<?=IMGURL?>landing-sales/touch-points.png"
                         alt="The goal is to be present. Create touch points... 5-7 on average">
@@ -319,7 +323,8 @@ wp_head();
                                     <p class="blurb">SEO, Searches, Reviews, and<br class="d-none d-md-block">
                                         Mobile Strategies are all part of<br class="d-none d-md-block">
                                         the digital paradigm.<br class="d-none d-md-block">
-                                        <br class="d-none d-md-block">
+                                    </p>
+                                    <p class="blurb">
                                         Meaning they’re all attainable<br class="d-none d-md-block">
                                         and cost effective!
                                     </p>

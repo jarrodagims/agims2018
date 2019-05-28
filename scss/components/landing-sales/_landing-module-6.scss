@@ -63,9 +63,22 @@
   @include media-breakpoint-down(lg) {
     padding: 2em 15px;
 
+    .banner {
+      padding-top: 3em;
+    }
+
+    ul.checks {
+      margin-bottom: 2em;
+    }
+
+    .banner img {
+      height: 200px; 
+    }
+
     .list-inline {
       flex-direction: column;
       text-align: center;
+      margin-top: 1em;
 
       li {
         margin-bottom: 1em;

@@ -49,6 +49,11 @@
 
   @include media-breakpoint-down(lg) {  
 
+    .black {
+      padding: 2em 15px;
+
+    
+    }
 
     .yellow {
       padding: 2em 30px;

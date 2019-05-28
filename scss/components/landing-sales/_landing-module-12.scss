@@ -4,15 +4,15 @@
   .yellow {
     .extra-padding {
       padding-top: 90px;
-      padding-left: 120px;
-      padding-right: 120px;
+      padding-left: 1em;
+      padding-right: 1em;
     }
   }
 
   .two-up {
     margin-top: 0;
-    @include dropshadow();
-
+    @include dropshadow();  
+ 
 
     &::before {
       display: none;
@@ -42,22 +42,24 @@
   .border-split {
     border-top: 1px solid $white;
     border-bottom: 1px solid $white;
-    padding: 1em;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: inline-block;
 
     p {
       margin: 0;
-      font-size: 27px;
+      font-size: 25px;
       @include montserrat();
     }
   }
 
   p.blurb {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     color: #000;
     line-height: 1.5;
+
   }
 
   .ribbon.ribbon-black p {
@@ -65,17 +67,21 @@
   }
 
   @include media-breakpoint-down(lg) {
-    .col.blue {
-    background: $sherpa-secondary-color url("../img/landing-sales/cutout-guy.png") center 0 no-repeat;
-    min-height: 300px;
-    background-size: cover;
     
-  }
+    .col.blue {
+      background: $sherpa-secondary-color url("../img/landing-sales/cutout-guy.png") center 0 no-repeat;
+      min-height: 300px;
+      background-size: cover;
+    }
+
+    .ribbon.ribbon-black p {
+      font-size: 20px;
+    }
   }
 
   @media screen and (max-width: 1301px) { 
 
-  
+   
 
     .yellow .extra-padding {
       padding: 2em 15px;

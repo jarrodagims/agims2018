@@ -59,6 +59,10 @@
 
     .list-inline {
       flex-direction: column;
+
+      li {
+        font-size: 15px;
+      }
     }
    
     .content-top {

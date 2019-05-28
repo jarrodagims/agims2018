@@ -43,6 +43,10 @@
   }
 
   @include media-breakpoint-down(lg) {
+
+    .black .extra-padding {
+      padding: 2em 15px;
+    }
    
     .gray p {
       margin-bottom: 0;
@@ -54,7 +58,6 @@
 
     p {
       @include mobile-type();
-
     }
 
 

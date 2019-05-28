@@ -218,7 +218,6 @@
 
   @media screen and (min-width: 1200px) {
 
-   
 
     .display-col {
        margin-top: 0;
@@ -269,6 +268,13 @@
     background: #000;
     padding: 0 0;
 
+    
+
+    .check-list {
+      padding-left: 0;
+      font-size: 15px;
+    }
+
     img {
       margin-bottom: 2em;
     }
@@ -288,6 +294,10 @@
     .social-tab {
 
       flex: 1;
+
+      .extra-padding {
+        padding: 1em 15px;
+      }
 
       h2 {
         font-size: 2em;
